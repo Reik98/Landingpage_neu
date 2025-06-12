@@ -44,7 +44,7 @@ st.markdown("""
         .catchfrase h3 { font-size: 2.2rem; margin-bottom: 0.5rem; }
         .catchfrase p { font-size: 1.2rem; margin-bottom: 1.5rem; }
 
-       .cta-button {
+        .cta-button {
             background-color: #008B92;
             color: #FFFFFF;
             padding: 1rem 2rem;
@@ -54,10 +54,15 @@ st.markdown("""
             text-decoration: none; /* kein Unterstrich standardmäßig */
             }
             
-        .cta-button, .cta-button:visited, .cta-button:hover, .cta-button:active {
+        .cta-button:link, .cta-button:visited, .cta-button:active {
             background-color: #008B92;
             color: #FFFFFF;
             text-decoration: none;
+            }
+        .cta-button:hover {
+            color: #FFFFFF;
+            background-color: #008B92;
+            text-decoration: underline;
             }
 
         .feature-box {
