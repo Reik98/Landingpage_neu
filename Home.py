@@ -64,7 +64,27 @@ st.markdown("""
             background-color: #008B92;
             text-decoration: underline;
             }
+        .feature-box {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    width: 100%;
+}
 
+.feature-box ul {
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    list-style-position: inside;  /* ✔ Bullet Points bleiben in der Box */
+}
+
+.feature-box li {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+    overflow-wrap: break-word;
+
+    
         .feature-box {
             background-color: #ffffff;
             height: 400px;
