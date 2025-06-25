@@ -128,9 +128,13 @@ st.markdown("""
 
 /* Responsive mobile optimizations */
 @media (max-width: 768px) {
+    
+
     .hero {
         height: auto;
         padding: 2rem 1rem;
+        aspect-ratio: 3 / 2; /* ✅ Verhältnis erzwingen (z. B. 3:2 oder 4:3) */
+        background-size: contain; /* 👈 wichtig: Bild vollständig zeigen */
     }
     .hero h1 {
         font-size: 1.8rem;
