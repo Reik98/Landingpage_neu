@@ -68,12 +68,12 @@ def show_header():
         }
 
         .logo-main {
-            height: 35px;
+            height: 32px;
             margin-bottom: 0.5rem;
         }
 
         .logo-partner {
-            height: 20px;
+            height: 18px;
             margin-bottom: 0.5rem;
         }
 
