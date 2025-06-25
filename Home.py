@@ -161,7 +161,8 @@ st.markdown("""
         max-width: 90vw;
         width: auto;
         text-align: center;
-        margin: 0 auto;
+       margin-top: 0;
+        
     }
     .Logo-Bereiche {
         height: 70px;
