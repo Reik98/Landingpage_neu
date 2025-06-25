@@ -52,13 +52,13 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# --- Geschichte ---
+
 st.markdown("""
 ### Analyse Ihrer besteheneden Veränderungslogik
 
 - Passt sich Ihr Unternehmen kontinuierlich an interne und externe Veränderungen / Herausforderungen an?
-- lebendiges / dynamisches System - Mensch im Mittelpunkt des Systems -->nachhaltige Verbesserung des Verhaltens von Mitarbeitenden, Strukturen und Prozesse
-- Geplanter langfristiger Veränderungsprozess eines Systems / einer Organisation
+- Ist Ihre Organisation ein lebendiges / dynamisches System - Nachhaltige Verbesserung des Verhaltens von Mitarbeitenden, Strukturen und Prozesse
+- Wie sieht der geplante langfristige Veränderungsprozess Ihrer Organisation aus?
 
 """)
 
@@ -66,7 +66,8 @@ st.markdown("""
 st.markdown("""
 ### Bewertung aktueller Modelle auf Zukunftstauglichkeit
 
-...
+Unsere Organisationsentwickler:innen haben in einer groß angelegten Studie Modelle zur Organisationsentwicklung bezüglich Ihrer Tauglichkeit einer KI-Integration untersucht.
+Wir helfen Ihnen dabei, das richtige Modell zu finden und Ihre Organisation auf ein neues Level zu heben!
 """)
 
 # --- Teamvorstellung ---
