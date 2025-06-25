@@ -48,6 +48,7 @@ st.markdown("""
     background-size: contain; /* 👈 wichtig: Bild vollständig zeigen */
     background-repeat: no-repeat;
     background-position: center;
+    background-color: transparent;  /* ✅ Kein Fallback-Hintergrund */
     padding: 6rem 1rem 2rem 1rem;
     text-shadow: none;
     margin-top: 5rem; /* ✅ schiebt den ganzen Kasten nach unten */
