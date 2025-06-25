@@ -74,13 +74,13 @@ Unsere eigens entwickelten Diagnoseinstrumente messen, wie offen Ihre Organisati
 
 Dabei analysieren wir unter anderem:
 
-Wie werden Entscheidungen getroffen – datenbasiert oder erfahrungsgetrieben?
+- Wie werden Entscheidungen getroffen – datenbasiert oder erfahrungsgetrieben?
 
-Wie hoch ist das Vertrauen in technologische Systeme im Alltag?
+- Wie hoch ist das Vertrauen in technologische Systeme im Alltag?
 
-Welche Narrative, Werte und Grundhaltungen prägen die Zusammenarbeit?
+- Welche Narrative, Werte und Grundhaltungen prägen die Zusammenarbeit?
 
-Wie adaptiv ist Ihre Organisation bei Veränderungen?
+- Wie adaptiv ist Ihre Organisation bei Veränderungen?
 
 🔍 Mithilfe von standardisierten Fragebögen, kulturellen Metriken und qualitativen Interviews erhalten Sie ein klares Bild über Ihre KI-Kultur – nicht als Zustand, sondern als Entwicklungspotenzial.
 
@@ -94,13 +94,14 @@ KI verändert nicht nur Prozesse – sie verändert Beziehungen und Rollen.
 
 Wir entwickeln mit Ihnen konkrete Rollenmodelle, die beschreiben:
 
-Wie und wo KI im Team eingebunden wird (Assistenz, Entscheidungsvorbereitung, Automatisierung)
+- Wie und wo KI im Team eingebunden wird (Assistenz, Entscheidungsvorbereitung, Automatisierung)
 
-Welche Verantwortung beim Menschen bleibt – und welche nicht
+- Welche Verantwortung beim Menschen bleibt – und welche nicht
 
-Wie Führung neu gedacht werden muss, wenn Maschinen mitdenken
+- Wie Führung neu gedacht werden muss, wenn Maschinen mitdenken
 
 Dabei stehen Transparenz, Akzeptanz und psychologische Sicherheit im Vordergrund: Wer KI versteht, vertraut ihr auch.
+
 📌 Ergebnis ist ein Modell, das Mensch und Maschine als komplementäre Partner positioniert – nicht als Konkurrenten.
 """)
 
@@ -110,13 +111,13 @@ st.markdown('<div class="divider"><span>Integrationsstrategie inkl. kulturellem 
 st.markdown("""
 Basierend auf Ihrer Ausgangslage entwickeln wir eine passgenaue Strategie zur kulturellen Integration von KI. Diese umfasst:
 
-Kulturelle Entwicklungsfelder & Wachstumsachsen
+- Kulturelle Entwicklungsfelder & Wachstumsachsen
 
-Empfehlungen für konkrete Maßnahmen (z. B. Kommunikationsinitiativen, Führungskräftetrainings, Rituale)
+- Empfehlungen für konkrete Maßnahmen (z. B. Kommunikationsinitiativen, Führungskräftetrainings, Rituale)
 
-Change-Kommunikation, die Haltung und Richtung gibt
+- Change-Kommunikation, die Haltung und Richtung gibt
 
-Architekturen für Pilotprojekte & prototypische Teams
+- Architekturen für Pilotprojekte & prototypische Teams
 
 Zusätzlich gestalten wir ein kulturelles Re-Design, das nicht bei Werten und Postern endet, sondern sich in Verhalten, Systemlogiken und Entscheidungsstrukturen niederschlägt.
 """)
