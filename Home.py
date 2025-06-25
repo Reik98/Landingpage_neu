@@ -176,6 +176,29 @@ st.markdown("""
     .centered-heading {
         font-size: 1.2rem;
     }
+    .divider {
+    flex-direction: row;
+    margin: 1.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+    border-bottom: 1.5px solid #fddb3a;  /* etwas dünner auf Mobil */
+}
+
+.divider:not(:empty)::before {
+    margin-right: 0.5em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 0.5em;
+}
+
+.divider span {
+    font-size: 1.6rem;  /* 👈 kleiner auf Mobil */
+    font-weight: 600;
+}
+
 }
 
 /* 🔹 Darkmode-Unterstützung */
