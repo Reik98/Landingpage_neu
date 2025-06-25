@@ -47,7 +47,7 @@ st.markdown("""
 # --- Catchfrase / Vorstellung ---
 st.markdown("""
 <div class="catchfrase">
-    <h3>Wie zukunftsfähig ist Ihre Veränderungslogik?</h3>
+    <h3></h3>
 </div>
 """, unsafe_allow_html=True)
 
