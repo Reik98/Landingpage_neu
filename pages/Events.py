@@ -66,6 +66,54 @@ st.markdown("""
     font-weight: bold;
 }
 </style>
+<style>
+@media (max-width: 768px) {
+    .events-hero {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .events-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .events-hero p {
+        font-size: 1rem;
+    }
+
+    .catchfrase {
+        padding: 1rem;
+    }
+
+    .catchfrase h3 {
+        font-size: 1.4rem;
+    }
+
+    .catchfrase p {
+        font-size: 1rem;
+    }
+
+    .event-box {
+        padding: 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .event-box h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .event-box p {
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+}
+</style>
 
 <div class="events-hero">
     <h1>Events & Vorträge</h1>
