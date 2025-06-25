@@ -140,10 +140,12 @@ st.markdown("""
         }
     .hero h1 {
         font-size: 1.8rem;
+        padding: 2rem 1rem;
     }
     .hero p {
         font-size: 1rem;
         margin-bottom: 0.1rem;
+        padding: 2rem 1rem;
     }
     .catchfrase {
         height: auto;
