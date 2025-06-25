@@ -143,7 +143,7 @@ st.markdown("""
     }
     .hero p {
         font-size: 1rem;
-        margin-bottom: 0,1rem;
+        margin-bottom: 0.1rem;
     }
     .catchfrase {
         height: auto;
