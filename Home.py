@@ -142,28 +142,39 @@ st.markdown("""
     .catchfrase p {
         font-size: 1rem;
     }
-.cta-button {
-    display: inline-block;
-    font-size: clamp(0.9rem, 4vw, 1.1rem);  /* 📱 dynamische Schriftgröße */
-    padding: clamp(0.6rem, 2.5vw, 1rem) clamp(1rem, 6vw, 2rem); /* 📱 dynamisches Padding */
-    max-width: 90vw;
-    width: auto;
-    text-align: center;
-    margin: 0 auto;
+    .cta-button {
+        display: inline-block;
+        font-size: clamp(0.9rem, 3.5vw, 1rem);
+        padding: clamp(0.4rem, 2vw, 0.8rem) clamp(0.8rem, 5vw, 1.6rem);
+        max-width: 90vw;
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
     .Logo-Bereiche {
         height: 70px;
     }
     .feature-box {
         height: auto;
         padding: 1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .feature-box p,
+    .feature-box ul,
+    .feature-box li {
+        font-size: 0.95rem;
+        line-height: 1.4;
     }
     .feature-box ul {
         padding-left: 1rem;
+        margin: 0;
     }
     .centered-heading {
         font-size: 1.2rem;
     }
 }
+
 /* 🔹 Darkmode-Unterstützung */
 @media (prefers-color-scheme: dark) {
     body, .hero, .catchfrase, .feature-box {
