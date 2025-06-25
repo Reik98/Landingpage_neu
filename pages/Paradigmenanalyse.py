@@ -68,8 +68,6 @@ st.markdown("""
 st.markdown('<div class="divider"><span>Analyse Ihrer bestehenden Veränderungslogik</span></div>', unsafe_allow_html=True)
 
 st.markdown("""
-### Analyse Ihrer bestehenden Veränderungslogik
-
 Viele Organisationen setzen nach wie vor auf klassische Methoden zur Steuerung von Wandel – häufig inspiriert von linearen Modellen wie denen von Kotter, Senge oder Luhmann. Doch die Frage ist nicht, ob sich Ihre Organisation verändert, sondern wie.
 
 In unserem Analysemodul untersuchen wir u. a.:
