@@ -82,7 +82,6 @@ def show_header():
             justify-content: center;  /* 👉 Links zentriert */
             width: 100%;
             gap: 0.5rem;
-            margin-top: 0.5rem;
         }
 
         .nav-container a {
