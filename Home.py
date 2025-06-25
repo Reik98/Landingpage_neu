@@ -117,6 +117,10 @@ st.markdown("""
         .divider span {
             color: #444; font-weight: 600; font-size: 2.5rem;
         }
+.responsive-quiz-button {
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+}
         footer {
             margin-top: 3rem; text-align: center;
             font-size: 0.9rem; color: #888;
@@ -175,6 +179,13 @@ st.markdown("""
     }
     .centered-heading {
         font-size: 1.2rem;
+    }
+
+    .responsive-quiz-button {
+        font-size: 1rem;
+        padding: 0.8rem 1.2rem;
+        display: inline-block;
+        max-width: 90vw;
     }
     .divider {
     flex-direction: row;
@@ -384,11 +395,12 @@ st.markdown("""
 # --- Quiz-Button (intern) ---
 st.markdown("""
 <div style="text-align: center; margin: 3rem 0;">
-    <a href="/Quiz" class="cta-button" style="font-size: 1.5rem; padding: 1.5rem 3rem;">
+    <a href="/Quiz" class="cta-button responsive-quiz-button">
         Jetzt kostenlos prüfen, ob Ihr Unternehmen KI-fähig ist
     </a>
 </div>
 """, unsafe_allow_html=True)
+
 
 # --- Kontaktformular ---
 st.markdown('<div id="form"></div>', unsafe_allow_html=True)
