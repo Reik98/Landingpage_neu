@@ -44,7 +44,7 @@ st.markdown("""
         .catchfrase h3 { font-size: 2.2rem; margin-bottom: 0.5rem; }
         .catchfrase p { font-size: 1.2rem; margin-bottom: 1.5rem; }
 
-        .cta-button {
+       .cta-button {
             background-color: #008B92;
             color: #FFFFFF;
             padding: 1rem 2rem;
@@ -103,19 +103,10 @@ st.markdown("""
             
         .feature-box h4 { margin-top: 0; color: #003865; }
 
-        .feature-column {
-            flex: 1 1 calc(50% - 1rem);  /* 2 Spalten mit Abstand */
-            }
-
-        /* 👉 Auf kleinen Bildschirmen: volle Breite */
-        @media (max-width: 768px) {
-            .feature-column {
-            flex: 1 1 100%;
-            .divider {
-                display: flex; align-items: center; text-align: center;
-                margin: 2rem 0;
-            }
-            
+        .divider {
+            display: flex; align-items: center; text-align: center;
+            margin: 2rem 0;
+        }
         .divider::before, .divider::after {
             content: ''; flex: 1; border-bottom: 2px solid #fddb3a;
         }
@@ -207,7 +198,7 @@ st.markdown("""
 <div class="hero">
     <h1>Verändern Sie Ihre Organisation mit Künstlicher Intelligenz</h1>
     <p>Kulturwandel beginnt dort, wo Technologie auf Haltung trifft.</p>
-    <a href="#form" class="cta-button">Kostenfreies Erstgespräch buchen</a>
+    <a href="#buchen-sie-ihr-erstgespraech" class="cta-button">Kostenfreies Erstgespräch buchen</a>
 </div>
 """, unsafe_allow_html=True)
 
@@ -218,7 +209,7 @@ st.markdown("""
     <p>Stabile Systeme, lineares Denken, Planbarkeit. Doch KI verändert die Spielregeln.</p>
     <p>Entscheidungen werden datenbasiert, Rollen verschwimmen, Führung wird adaptiv und systemische Modelle stoßen an ihre Grenzen.</p>
     <p>Sie wollen nicht nur KI einführen – Sie wollen Ihre Organisation darauf ausrichten? Dafür bieten wir keine Standardberatung, sondern maßgeschneiderte kulturelle Entwicklung.<p>
-    <p>Wir helfen Ihnen dabei, ihre Organisation neu zu denken!</p>
+    <p>Wir helfen Ihnen dabei, Ihre Organisation neu zu denken!</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -227,11 +218,11 @@ st.markdown('<div class="divider"><span>Unsere Leistungsangebote</span></div>', 
 
 # --- Leistungsangebote (2-Spalten-Layout) ---
 st.markdown("""
-<div class="feature-box">
-    <div class="feature-column">
-        <a href="/Paradigmenanalyse" class="feature-link">
-            <div class="feature-box">
-                <div class="centered-image">
+<div style="display: flex; justify-content: space-between; gap: 2rem; padding: 2rem;">
+  <div style="flex: 1;">
+    <a href="/Paradigmenanalyse" class="feature-link">
+    <div class="feature-box">
+      <div class="centered-image">
         <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/Analyse.png" class="Logo-Bereiche">
         <h4 class="centered-heading">Paradigmenanalyse</h4>
       </div>
@@ -272,6 +263,7 @@ st.markdown("""
     </div>
     </a>
   </div>
+  <div style="flex: 1;">
     <a href="/KI_Framing_Workshops" class="feature-link">
     <div class="feature-box">
       <div class="centered-image">
