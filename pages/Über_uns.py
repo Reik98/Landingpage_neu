@@ -91,10 +91,14 @@ st.markdown("""
 
 /* Darkmode Anpassung */
 @media (prefers-color-scheme: dark) {
+    :root {
+        --hero-bg: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+                   url('https://raw.githubusercontent.com/Reik98/Landingpage_neu/main/Über_uns.JPG');
+    }
+
     .hero-about {
-        background-color: #1e1e1e;
+        text-shadow: none;
         color: #ffffff;
-        background-blend-mode: overlay;
     }
 
     .catchfrase {
