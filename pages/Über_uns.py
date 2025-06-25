@@ -50,6 +50,7 @@ st.markdown("""
     background-position: center;
     padding: 6rem 1rem 2rem 1rem;
     text-shadow: none;
+    margin-top: 5rem; /* ✅ schiebt den ganzen Kasten nach unten */
 }
 
     .hero-about h1 {
