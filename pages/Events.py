@@ -68,14 +68,18 @@ st.markdown("""
 </style>
 <style>
 @media (max-width: 768px) {
-    .events-hero {
-        height: auto;
-        padding: 2rem 1rem;
-    }
 
-    .events-hero h1 {
-        font-size: 1.8rem;
-    }
+.events-hero {
+    height: auto;
+    padding: 5rem 1rem 2rem 1rem; /* 👈 mehr Abstand nach oben */
+    margin-top: 0; /* Header übernimmt Abstand */
+}
+
+.events-hero h1 {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+}
+
 
     .events-hero p {
         font-size: 1rem;
