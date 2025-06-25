@@ -69,7 +69,7 @@ def show_header():
 
         .logo-main {
             height: 32px;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0rem;
         }
 
         .logo-partner {
