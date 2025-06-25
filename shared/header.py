@@ -5,16 +5,16 @@ def show_header():
     <style>
     header {
         position: fixed;
-        top: 3rem;
+        top: 3.0rem;
         left: 0;
         width: 100%;
+        height: 110px;
         background-color: white;
         z-index: 999;
         display: flex;
         align-items: center;
         padding: 0 20px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        flex-wrap: wrap;
     }
 
     .logo-main {
@@ -25,19 +25,7 @@ def show_header():
 
     .logo-partner {
         height: 35px;
-        margin-right: auto;
-    }
-
-    .nav-toggle {
-        display: none;
-    }
-
-    .nav-toggle-label {
-        display: none;
-        font-size: 2rem;
-        cursor: pointer;
-        margin-left: auto;
-        user-select: none;
+        margin-right: 2rem;
     }
 
     .nav-container {
@@ -60,50 +48,51 @@ def show_header():
     .nav-container a:hover {
         background-color: #00c6d2;
         color: #000;
+        text-decoration: none;
     }
 
     body {
         padding-top: calc(3.0rem + 110px);
     }
 
-@media (max-width: 768px) {
-    header {  
-        flex-wrap: wrap;
-        justify-content: space-between;
-        height: auto;
-        padding: 1rem;
-        align-items: flex-start;
-    }
+    @media (max-width: 768px) {
+        header {  
+            flex-wrap: wrap;
+            justify-content: space-between;
+            height: auto;
+            padding: 1rem;
+            align-items: flex-start;
+        }
 
-    .logo-main {
-        height: 50px;
-        margin-bottom: 0.5rem;
-    }
+        .logo-main {
+            height: 50px;
+            margin-bottom: 0.5rem;
+        }
 
-    .logo-partner {
-        height: 28px;
-        margin-bottom: 0.5rem;
-    }
+        .logo-partner {
+            height: 28px;
+            margin-bottom: 0.5rem;
+        }
 
-    .nav-container {
-        flex-direction: column;           /* 👉 untereinander */
-        align-items: flex-end;            /* 👉 rechtsbündig */
-        width: 100%;
-        margin-top: 0.5rem;
-        gap: 0.5rem;
-    }
+        .nav-container {
+            flex-direction: column;       /* 👉 untereinander */
+            align-items: flex-end;        /* 👉 rechtsbündig */
+            width: 100%;                  /* volle Breite für Platzierung */
+            margin-top: 0.5rem;
+            gap: 0.5rem;
+        }
 
-    .nav-container a {
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
-        width: auto;
-        text-align: right;
-    }
+        .nav-container a {
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            width: auto;
+            text-align: right;
+        }
 
-    body {
-        padding-top: calc(3.0rem + 140px);
+        body {
+            padding-top: calc(3.0rem + 140px);
+        }
     }
-}
 
     @media (prefers-color-scheme: dark) {
         header {
@@ -130,17 +119,12 @@ def show_header():
     </style>
     """, unsafe_allow_html=True)
 
-    # HTML-Struktur inklusive Toggle
     st.markdown("""
         <header>
             <a href="/">
                 <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/Logo_1.png" class="logo-main" alt="Aicura Logo">
             </a>
             <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/Logo_2.png" class="logo-partner" alt="Partner Logo">
-            
-            <label for="nav-toggle" class="nav-toggle-label">☰</label>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-
             <div class="nav-container">
                 <a href="/">Home</a>
                 <a href="/Quiz">Quiz</a>
