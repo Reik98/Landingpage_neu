@@ -85,7 +85,7 @@ def show_header():
         }
 
         .nav-container a {
-            font-size: 0.7rem;
+            font-size: 0.6rem;
             padding: 0.4rem 0.8rem;
         }
 
