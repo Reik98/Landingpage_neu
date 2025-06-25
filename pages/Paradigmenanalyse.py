@@ -54,14 +54,17 @@ st.markdown("""
 
 # --- Geschichte ---
 st.markdown("""
-### Erstens
+### Analyse Ihrer besteheneden Veränderungslogik
 
-...
+- Passt sich Ihr Unternehmen kontinuierlich an interne und externe Veränderungen / Herausforderungen an?
+- lebendiges / dynamisches System - Mensch im Mittelpunkt des Systems -->nachhaltige Verbesserung des Verhaltens von Mitarbeitenden, Strukturen und Prozesse
+- Geplanter langfristiger Veränderungsprozess eines Systems / einer Organisation
+
 """)
 
-# --- Vision & Werte ---
+# Bewertung aktueller Modelle auf Zukunftstauglichkeit
 st.markdown("""
-### Zweitens
+### Bewertung aktueller Modelle auf Zukunftstauglichkeit
 
 ...
 """)
