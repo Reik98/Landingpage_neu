@@ -50,8 +50,8 @@ st.markdown("""
 <div class="catchfrase">
     <h3>Führung neu denken – im Dialog mit der Künstlichen Intelligenz.</h3>
     <p>Künstliche Intelligenz verändert nicht nur Tools und Prozesse – sie fordert eine neue Haltung in der Führung.
-Wie führt man Teams, in denen Maschinen mitdenken?
-Wie bleibt man handlungsfähig in einem Umfeld, das sich täglich wandelt?<p>
+    <p>Wie führt man Teams, in denen Maschinen mitdenken?<p>
+    <p>Wie bleibt man handlungsfähig in einem Umfeld, das sich täglich wandelt?<p>
     <p>Unsere Formate geben Orientierung, schaffen Reflexionsräume und begleiten Führungskräfte dabei, den Wandel nicht nur zu managen, sondern zu gestalten.<p>
 </div>
 """, unsafe_allow_html=True)
