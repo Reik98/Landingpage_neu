@@ -41,21 +41,19 @@ st.markdown("""
 <div class="hero-about">
     <h1> </h1>
     <p>Bewertung klassischer OE-Modelle wie Luhmann, Kotter oder Senge in Bezug auf KI-Fähigkeit.</p>
-    <p>Wie zukunftsfähig ist Ihre Veränderungslogik?</p>
 </div>
 """, unsafe_allow_html=True)
 
 # --- Catchfrase / Vorstellung ---
 st.markdown("""
 <div class="catchfrase">
-    <h3>Seite im Aufbau</h3>
-    <p>Weitere Inhalte folgen.</p>
+    <h3>Wie zukunftsfähig ist Ihre Veränderungslogik?</h3>
 </div>
 """, unsafe_allow_html=True)
 
 
 st.markdown("""
-### Analyse Ihrer besteheneden Veränderungslogik
+### Analyse Ihrer bestehenden Veränderungslogik
 
 Viele Organisationen setzen nach wie vor auf klassische Methoden zur Steuerung von Wandel – häufig inspiriert von linearen Modellen wie denen von Kotter, Senge oder Luhmann. Doch die Frage ist nicht, ob sich Ihre Organisation verändert, sondern wie.
 
