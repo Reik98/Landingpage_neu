@@ -52,6 +52,13 @@ st.markdown("""
     padding: 6rem 1rem 2rem 1rem;
     text-shadow: none;
     margin-top: 5rem; /* ✅ schiebt den ganzen Kasten nach unten */
+    
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
     .hero-about h1 {
