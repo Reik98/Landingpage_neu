@@ -50,8 +50,8 @@ st.markdown("""
 st.markdown("""
 <div class="catchfrase">
     <h3>Akzeptanz beginnt mit Sprache. Und Haltung.</h3>
-    <h3>Im Zeitalter der Künstlichen Intelligenz reicht es nicht aus, Systeme technisch zu integrieren – sie müssen verstanden, gefühlt und akzeptiert werden.<h3>
-    <h3>Der Schlüssel liegt in der Art der Kommunikation.<h3>
+    <h1>Im Zeitalter der Künstlichen Intelligenz reicht es nicht aus, Systeme technisch zu integrieren – sie müssen verstanden, gefühlt und akzeptiert werden.<h1>
+    <h1>Der Schlüssel liegt in der Art der Kommunikation.<h1>
 </div>
 """, unsafe_allow_html=True)
 
