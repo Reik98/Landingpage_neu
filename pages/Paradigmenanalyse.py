@@ -37,7 +37,53 @@ st.markdown("""
     font-size: 1.3rem;
     margin-top: 5.5rem;
 }
+        .divider {
+            display: flex; align-items: center; text-align: center;
+            margin: 2rem 0;
+        }
+        .divider::before, .divider::after {
+            content: ''; flex: 1; border-bottom: 2px solid #fddb3a;
+        }
+        .divider:not(:empty)::before { margin-right: 0.75em; }
+        .divider:not(:empty)::after { margin-left: 0.75em; }
+        .divider span {
+            color: #444; font-weight: 600; font-size: 2.5rem;
+        }
 </style>
+/* Responsive mobile optimizations */
+@media (max-width: 768px) {
+ .divider {
+    flex-direction: row;
+    margin: 1.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+    border-bottom: 1.5px solid #fddb3a;  /* etwas dünner auf Mobil */
+}
+
+.divider:not(:empty)::before {
+    margin-right: 0.5em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 0.5em;
+}
+
+.divider span {
+    font-size: 1.6rem;  /* 👈 kleiner auf Mobil */
+    font-weight: 600;
+}
+}
+
+/* 🔹 Darkmode-Unterstützung */
+@media (prefers-color-scheme: dark) {
+    
+    
+    .divider span {
+        color: #ffffff !important;
+    }
+}
 <div class="hero-about">
     <h1> </h1>
     <p>Bewertung klassischer OE-Modelle wie Luhmann, Kotter oder Senge in Bezug auf KI-Fähigkeit.</p>
@@ -51,6 +97,8 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+# --- Divider ---
+st.markdown('<div class="divider"><span>Analyse Ihrer bestehenden Veränderungslogik</span></div>', unsafe_allow_html=True)
 
 st.markdown("""
 ### Analyse Ihrer bestehenden Veränderungslogik
