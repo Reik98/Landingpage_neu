@@ -37,6 +37,88 @@ st.markdown("""
     font-size: 1.3rem;
 }
 </style>
+
+<style>
+/* Mobile Optimierung */
+@media (max-width: 768px) {
+    .hero-about {
+        height: auto;
+        padding: 5rem 1rem 2rem 1rem;
+        background-size: cover;
+        text-shadow: none;
+    }
+
+    .hero-about h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-about p {
+        font-size: 1rem;
+    }
+
+    .catchfrase {
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .catchfrase h3 {
+        font-size: 1.5rem;
+    }
+
+    .catchfrase p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+
+    h3, h4, h2, h1 {
+        font-size: 1.4rem;
+    }
+
+    p, li {
+        font-size: 1rem;
+    }
+}
+
+/* Darkmode Anpassung */
+@media (prefers-color-scheme: dark) {
+    .hero-about {
+        background-color: #1e1e1e;
+        color: #ffffff;
+        background-blend-mode: overlay;
+    }
+
+    .catchfrase {
+        background-color: #2a2a2a !important;
+        color: #ffffff !important;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .catchfrase h3 {
+        color: #00c6d2 !important;
+    }
+
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    h1, h2, h3, h4 {
+        color: #00c6d2;
+    }
+
+    footer {
+        color: #ccc;
+    }
+}
+</style>
+
+
 <div class="hero-about">
     <h1>Über uns</h1>
     <p>Unsere Vision: Transforming Culture. Responsibly.</p>
