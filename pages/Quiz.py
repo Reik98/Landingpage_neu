@@ -53,6 +53,8 @@ st.markdown("""
             padding: 2rem 1rem;
             text-align: center;
             background-size: contain; /* 👈 wichtig: Bild vollständig zeigen */
+            background-repeat: no-repeat;
+            background-position: center;
             margin-top: 5rem; /* ✅ schiebt den ganzen Kasten nach unten */
         }
 
