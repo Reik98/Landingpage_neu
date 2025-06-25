@@ -15,12 +15,8 @@ def show_header():
         align-items: center;
         padding: 0 20px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        transition: all 0.3s ease;
     }
 
-body.scrolled header {
-    height: 60px;
-}
 
     .logo-main {
         height: 70px;
@@ -72,12 +68,12 @@ body.scrolled header {
         }
 
         .logo-main {
-            height: 50px;
+            height: 30px;
             margin-bottom: 0.5rem;
         }
 
         .logo-partner {
-            height: 28px;
+            height: 18px;
             margin-bottom: 0.5rem;
         }
 
