@@ -66,48 +66,44 @@ def show_header():
         padding-top: calc(3.0rem + 110px);
     }
 
-    @media (max-width: 768px) {
-        .logo-main {
-            height: 50px;
-        }
-        .logo-partner {
-            height: 28px;
-        }
-
-        .nav-toggle {
-            display: none;
-        }
-
-        .nav-toggle:checked + .nav-container {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin-top: 1rem;
-        }
-
-        .nav-container {
-            display: none;
-            flex-direction: column;
-            gap: 0.5rem;
-            width: 100%;
-        }
-
-        .nav-container a {
-            font-size: 1rem;
-            width: 100%;
-            text-align: center;
-        }
-
-        .nav-toggle-label {
-            display: block;
-            font-size: 2rem;
-            margin-left: auto;
-        }
-
-        body {
-            padding-top: calc(3.0rem + 160px);
-        }
+@media (max-width: 768px) {
+    header {  
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+        padding: 1rem;
+        align-items: flex-start;
     }
+
+    .logo-main {
+        height: 50px;
+        margin-bottom: 0.5rem;
+    }
+
+    .logo-partner {
+        height: 28px;
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-container {
+        flex-direction: column;           /* 👉 untereinander */
+        align-items: flex-end;            /* 👉 rechtsbündig */
+        width: 100%;
+        margin-top: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .nav-container a {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        width: auto;
+        text-align: right;
+    }
+
+    body {
+        padding-top: calc(3.0rem + 140px);
+    }
+}
 
     @media (prefers-color-scheme: dark) {
         header {
