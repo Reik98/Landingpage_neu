@@ -15,10 +15,10 @@ st.markdown("""
 .hero-about {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 700px; /* Desktop */
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url('https://raw.githubusercontent.com/Reik98/Landingpage_neu/main/Über_uns.JPG');
-    background-size: contain;
+        url('https://raw.githubusercontent.com/Reik98/Landingpage_neu/main/Über_uns.JPG');
+    background-size: cover; /* 👈 Desktop: möglichst ausgefüllt */
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -29,6 +29,7 @@ st.markdown("""
     text-align: center;
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
+
 .hero-about h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
@@ -41,13 +42,15 @@ st.markdown("""
 <style>
 /* Mobile Optimierung */
 @media (max-width: 768px) {
-    .hero-about {
-        height: auto;
-        padding: 5rem 1rem 2rem 1rem;
-        background-size: cover;
-        text-shadow: none;
-        margin-top: 0; /* Header übernimmt Abstand */
-    }
+.hero-about {
+    height: auto;
+    aspect-ratio: 3 / 2; /* ✅ Verhältnis erzwingen (z. B. 3:2 oder 4:3) */
+    background-size: contain; /* 👈 wichtig: Bild vollständig zeigen */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6rem 1rem 2rem 1rem;
+    text-shadow: none;
+}
 
     .hero-about h1 {
         font-size: 2rem;
