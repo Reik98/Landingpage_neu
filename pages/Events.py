@@ -72,7 +72,7 @@ st.markdown("""
 .events-hero {
     height: auto;
     padding: 5rem 1rem 2rem 1rem; /* 👈 mehr Abstand nach oben */
-    margin-top: 5rem; /* ✅ schiebt den ganzen Kasten nach unten */
+    margin-top: 3rem; /* ✅ schiebt den ganzen Kasten nach unten */
 }
 
 .events-hero h1 {
