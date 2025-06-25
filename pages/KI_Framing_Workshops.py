@@ -73,11 +73,11 @@ st.markdown('<div class="divider"><span>Entwicklung akzeptanzfördernder Narrati
 st.markdown("""
 Narrative formen unser Denken. Sie definieren, wie wir Technologie sehen – als Bedrohung oder Chance, als Werkzeug oder als Partner. In unseren Workshops helfen wir Ihnen, zielgruppenspezifische Geschichten zu entwickeln, die Vertrauen schaffen:
 
-    - Welche Werte und Bilder verknüpfen Ihre Mitarbeitenden mit KI?
+- Welche Werte und Bilder verknüpfen Ihre Mitarbeitenden mit KI?
 
-    - Welche Geschichten lösen Widerstand aus – welche öffnen Perspektiven?
+- Welche Geschichten lösen Widerstand aus – welche öffnen Perspektiven?
 
-    - Wie kann KI als unterstützender Begleiter statt als Kontrollinstanz erscheinen?
+- Wie kann KI als unterstützender Begleiter statt als Kontrollinstanz erscheinen?
 
 📌 Wir entwickeln mit Ihnen organisationsspezifische Narrative, die emotional andocken, Ängste entkräften und ein gemeinsames Zukunftsbild transportieren.
 
@@ -109,11 +109,11 @@ KI darf nicht vorgeben, menschlich zu sein – sie muss einen eigenen Kommunikat
 
 In unseren Workshops klären wir gemeinsam:
 
-Wo verläuft die Grenze zwischen Authentizität und Täuschung?
+- Wo verläuft die Grenze zwischen Authentizität und Täuschung?
 
-Wie kann KI klar und wertschätzend kommunizieren – ohne Empathie zu imitieren?
+- Wie kann KI klar und wertschätzend kommunizieren – ohne Empathie zu imitieren?
 
-Wann hilft es, der KI eine „Stimme“ zu geben – und wann nicht?
+- Wann hilft es, der KI eine „Stimme“ zu geben – und wann nicht?
 
 🧩 Ziel ist eine klare Rollendefinition der KI als Dialogpartnerin, deren Kommunikation strukturiert, aber nicht emotional übergriffig ist.
 """)
