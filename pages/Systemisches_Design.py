@@ -48,33 +48,70 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# --- Catchfrase
+# --- Catchfrase / Vorstellung ---
 st.markdown("""
 <div class="catchfrase">
-    <h3>Seite im Aufbau</h3>
-    <p>Weitere Inhalte folgen.</p>
+    <h3>Organisationen als lebendige Systeme neu denken – mit und für KI.</h3>
+    <p>Künstliche Intelligenz verändert nicht nur Prozesse, sondern das Fundament, auf dem Organisationen funktionieren: Kommunikation, Steuerung, Beziehung.<p>
+    <p>Systemisches Design betrachtet Organisationen nicht als Maschinen, sondern als dynamische Netzwerke – und genau hier setzt unser Ansatz an.<p>
 </div>
 """, unsafe_allow_html=True)
 
-# --- Geschichte ---
-st.markdown("""
-### Erstens
+# --- Divider ---
+st.markdown('<div class="divider"><span>Analyse und Weiterentwicklung systemischer Logiken</span></div>', unsafe_allow_html=True)
 
-...
+st.markdown("""
+Wie „funktioniert“ Ihre Organisation – im Inneren?
+Wir analysieren, welche systemischen Prinzipien heute Ihre Zusammenarbeit, Entscheidungswege und Kommunikation prägen. Dabei gehen wir Fragen nach wie:
+
+- Welche impliziten Regeln steuern Verhalten?
+
+- Wie zirkulär oder linear verlaufen Entscheidungsprozesse?
+
+- Wie wird Wissen geteilt – explizit, implizit, selektiv?
+
+- Wo entstehen Muster, Schleifen, blinde Flecken?
+
+Gemeinsam identifizieren wir systemische Engpässe, die den produktiven Umgang mit KI behindern – und entwickeln neue Denk- und Handlungsmuster, die auf Verknüpfung statt Kontrolle, Wirkung statt Anweisung, und Selbstorganisation statt Top-Down setzen.
+
 """)
 
-# --- Vision & Werte ---
-st.markdown("""
-### Zweitens
+# --- Divider ---
+st.markdown('<div class="divider"><span>Übersetzung auf lernende Maschinen</span></div>', unsafe_allow_html=True)
 
-...
+st.markdown("""
+Systemisches Denken endet nicht beim Menschen – es bezieht KI als Akteur ein.
+
+Wir helfen Ihnen, systemische Prinzipien auf KI zu übertragen, z. B.:
+
+- Welche Beobachtungslogiken muss KI abbilden können?
+
+- Wie können Feedbackschleifen mit KI sinnvoll gestaltet werden?
+
+- Welche „Bedeutung“ erhalten Daten im sozialen Kontext?
+
+- Wie differenziert eine Organisation zwischen menschlicher und maschineller Kommunikation?
+
+Durch diese Übersetzung wird KI nicht als Fremdkörper erlebt, sondern als Teil des organisationalen Systems – mit klaren Rollen und wirksamer Anschlussfähigkeit.
 """)
 
-# --- Teamvorstellung ---
-st.markdown("""
-### Drittens
+# --- Divider ---
+st.markdown('<div class="divider"><span>Design neuer Interaktionsmuster mit KI</span></div>', unsafe_allow_html=True)
 
-...
+st.markdown("""
+Veränderung beginnt nicht bei der Technologie, sondern bei der Beziehung zur Technologie.
+
+Wir gestalten mit Ihnen neue Interaktionsmuster, in denen KI als kollegiale Ressource wirkt – z. B.:
+
+- Welche Aufgaben übernimmt KI – und wie werden sie übergeben?
+
+- Wie sehen dialogische Schnittstellen aus, die Vertrauen schaffen?
+
+- Wie verändert sich die Teamdynamik, wenn KI mitarbeitet?
+
+- Welche Regeln und Rituale unterstützen produktives Mensch-KI-Zusammenspiel?
+
+Dazu entwickeln wir Prototypen, testen sie in Pilot-Settings und begleiten ihre kulturelle Integration.
 """)
 
 # --- Footer ---
