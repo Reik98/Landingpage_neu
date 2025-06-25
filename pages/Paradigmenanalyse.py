@@ -60,7 +60,10 @@ st.markdown("""
 # --- Catchfrase / Vorstellung ---
 st.markdown("""
 <div class="catchfrase">
-    <h3></h3>
+    <h3>Können Ihre bisherigen Denkmodelle den Wandel mit KI wirklich tragen?</h3>
+    <p>Künstliche Intelligenz verändert nicht nur Tools – sie verändert die Logik von Organisationen.<p>
+    <p>Was gestern noch als Best Practice galt, ist heute vielleicht hinderlich.<p>
+    <p>Mit unserer Paradigmenanalyse überprüfen wir, ob Ihre organisationale Veränderungslogik dem Zeitalter der KI gewachsen ist – und helfen Ihnen, blinde Flecken zu erkennen und neue Wege zu denken.<p>
 </div>
 """, unsafe_allow_html=True)
 
