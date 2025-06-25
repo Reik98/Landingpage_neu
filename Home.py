@@ -198,6 +198,19 @@ st.markdown("""
     font-size: 1.6rem;  /* 👈 kleiner auf Mobil */
     font-weight: 600;
 }
+.testimonial-box {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    padding: 1.2rem !important;
+    gap: 1rem;
+}
+
+.testimonial-box div:first-child {
+    margin-right: 0 !important;
+    font-size: 1rem !important;
+}
+
 
 }
 
@@ -434,9 +447,9 @@ with col3:
 # Anzeige
 with col2:
     st.markdown(f"""
-    <div style="display: flex; align-items: center; justify-content: space-between;
+    <div class="testimonial-box" style="display: flex; align-items: center; justify-content: space-between;
                 background-color: #f9f9f9; padding: 2rem; border-radius: 12px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.05); min-height: 200px;">
+                box-shadow: 0 4px 12px rgba(0,0,0,0.05); min-height: 200px; flex-wrap: wrap;">
         <div style="flex: 1; font-size: 1.2rem; color: #333; margin-right: 2rem;">
             {testimonials[st.session_state.testimonial_index]['text']}
         </div>
