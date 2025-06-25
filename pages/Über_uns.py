@@ -46,6 +46,7 @@ st.markdown("""
         padding: 5rem 1rem 2rem 1rem;
         background-size: cover;
         text-shadow: none;
+        margin-top: 0; /* Header übernimmt Abstand */
     }
 
     .hero-about h1 {
