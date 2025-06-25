@@ -218,93 +218,113 @@ st.markdown('<div class="divider"><span>Unsere Leistungsangebote</span></div>', 
 
 # --- Leistungsangebote (2-Spalten-Layout) ---
 st.markdown("""
-<div style="display: flex; justify-content: space-between; gap: 2rem; padding: 2rem;">
-  <div style="flex: 1;">
+<style>
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+}
+.feature-column {
+    flex: 1 1 calc(50% - 1rem);
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    .feature-column {
+        flex: 1 1 100%;
+    }
+}
+</style>
+
+<div class="feature-container">
+  <div class="feature-column">
     <a href="/Paradigmenanalyse" class="feature-link">
-    <div class="feature-box">
-      <div class="centered-image">
-        <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/Analyse.png" class="Logo-Bereiche">
-        <h4 class="centered-heading">Paradigmenanalyse</h4>
+      <div class="feature-box">
+        <div class="centered-image">
+          <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/Analyse.png" class="Logo-Bereiche">
+          <h4 class="centered-heading">Paradigmenanalyse</h4>
+        </div>
+        <p>Bewertung klassischer OE-Modelle wie Luhmann, Kotter oder Senge in Bezug auf KI-Fähigkeit.</p>
+        <ul>
+          <li>Analyse Ihrer bestehenden Veränderungslogik</li>
+          <li>Bewertung aktueller Modelle auf Zukunftstauglichkeit</li>
+          <li>Team-Workshop zur kollektiven Reflexion</li>
+        </ul>
       </div>
-      <p>Bewertung klassischer OE-Modelle wie Luhmann, Kotter oder Senge in Bezug auf KI-Fähigkeit.</p>
-      <ul>
-        <li>Analyse Ihrer bestehenden Veränderungslogik</li>
-        <li>Bewertung aktueller Modelle auf Zukunftstauglichkeit</li>
-        <li>Team-Workshop zur kollektiven Reflexion</li>
-      </ul>
-    </div>
     </a>
     <a href="/Kulturdiagnostik_Integrationsstrategie" class="feature-link">
-    <div class="feature-box">
-      <div class="centered-image">
-        <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/culture.png" class="Logo-Bereiche">
-        <h4 class="centered-heading">Kulturdiagnostik & Integrationsstrategie</h4>
+      <div class="feature-box">
+        <div class="centered-image">
+          <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/culture.png" class="Logo-Bereiche">
+          <h4 class="centered-heading">Kulturdiagnostik & Integrationsstrategie</h4>
+        </div>
+        <p>Tool-gestützte Analyse Ihrer aktuellen kulturellen Reife zur Integration von KI.</p>
+        <ul>
+          <li>Tool-gestützte Ist-Erhebung kultureller Reife</li>
+          <li>Entwicklung von Rollenmodellen für „KI im Team“</li>
+          <li>Integrationsstrategie inkl. kulturellem Re-Design</li>
+        </ul>
       </div>
-      <p>Tool-gestützte Analyse Ihrer aktuellen kulturellen Reife zur Integration von KI.</p>
-      <ul>
-        <li>Tool-gestützte Ist-Erhebung kultureller Reife (z. B. Akzeptanzgrade KI, Wertekompass)</li>
-        <li>Entwicklung von Rollenmodellen für „KI im Team“</li>
-        <li>Integrationsstrategie inkl. kulturellem Re-Design</li>
-      </ul>
-    </div>
     </a>
     <a href="/Change_Coaching_Impulsformate" class="feature-link">
-    <div class="feature-box">
-      <div class="centered-image">
-        <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/coaching.png" class="Logo-Bereiche">
-        <h4 class="centered-heading">Change-Coaching & Impulsformate</h4>
+      <div class="feature-box">
+        <div class="centered-image">
+          <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/coaching.png" class="Logo-Bereiche">
+          <h4 class="centered-heading">Change-Coaching & Impulsformate</h4>
+        </div>
+        <p>Begleitung Ihrer Führungskräfte beim Wandel zur KI-kompatiblen Unternehmenskultur.</p>
+        <ul>
+          <li>„KI verändert Führung“ – Impulsvortrag</li>
+          <li>„Systemisches Denken im Zeitalter von KI“ – Teamworkshop</li>
+          <li>„Framing & Narrative für KI-Kommunikation“ – Kommunikationsstrategie</li>
+        </ul>
       </div>
-      <p>Begleitung Ihrer Führungskräfte beim Wandel zur KI-kompatiblen Unternehmenskultur.</p>
-      <ul>
-        <li>„KI verändert Führung“ – Impulsvortrag für Führungskräfte</li>
-        <li>„Systemisches Denken im Zeitalter von KI“ – Teamworkshop</li>
-        <li>„Framing & Narrative für KI-Kommunikation“ – Kommunikationsstrategie</li>
-      </ul>
-    </div>
     </a>
   </div>
-  <div style="flex: 1;">
+
+  <div class="feature-column">
     <a href="/KI_Framing_Workshops" class="feature-link">
-    <div class="feature-box">
-      <div class="centered-image">
-        <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/meeting.png" class="Logo-Bereiche">
-        <h4 class="centered-heading">KI-Framing Workshops</h4>
+      <div class="feature-box">
+        <div class="centered-image">
+          <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/meeting.png" class="Logo-Bereiche">
+          <h4 class="centered-heading">KI-Framing Workshops</h4>
+        </div>
+        <p>Wie muss KI kommunizieren, um akzeptiert zu werden? Narrative & Tonalitätsdesign.</p>
+        <ul>
+          <li>Entwicklung akzeptanzfördernder Narrative</li>
+          <li>Gestaltung emotionaler Tonalitäten</li>
+          <li>Abgrenzung zu zwischenmenschlicher Kommunikation</li>
+        </ul>
       </div>
-      <p>Wie muss KI kommunizieren, um akzeptiert zu werden? Narrative & Tonalitätsdesign.</p>
-      <ul>
-        <li>Entwicklung von akzeptanzfördernden Narrativen für KI-Einsatz</li>
-        <li>Gestaltung emotionaler Tonalitäten für KI-Kommunikation</li>
-        <li>Wie unterscheidet sich KI-Kommunikation von zwischenmenschlicher Kommunikation?</li>
-      </ul>
-    </div>
     </a>
     <a href="/Systemisches_Design" class="feature-link">
-    <div class="feature-box">
-      <div class="centered-image">
-        <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/systemic.png" class="Logo-Bereiche">
-        <h4 class="centered-heading">Systemisches Design</h4>
+      <div class="feature-box">
+        <div class="centered-image">
+          <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/systemic.png" class="Logo-Bereiche">
+          <h4 class="centered-heading">Systemisches Design</h4>
+        </div>
+        <p>Neuausrichtung systemischer Ansätze im Zusammenspiel mit lernenden Maschinen.</p>
+        <ul>
+          <li>Analyse und Weiterentwicklung systemischer Logiken</li>
+          <li>Übersetzung auf lernende Maschinen</li>
+          <li>Design neuer Interaktionsmuster mit KI</li>
+        </ul>
       </div>
-      <p>Neuausrichtung systemischer Ansätze im Zusammenspiel mit lernenden Maschinen.</p>
-      <ul>
-        <li>Analyse und Weiterentwicklung bestehender systemischer Logiken</li>
-        <li>Übersetzung systemischer Prinzipien auf lernende Maschinen</li>
-        <li>Design neuer Interaktionsmuster zwischen Mensch und KI im organisationalen Kontext</li>
-      </ul>
-    </div>
     </a>
     <a href="/Prototypische_Teams" class="feature-link">
-    <div class="feature-box">
-      <div class="centered-image">
-        <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/prototyp.png" class="Logo-Bereiche">
-        <h4 class="centered-heading">Prototypische Teams</h4>
+      <div class="feature-box">
+        <div class="centered-image">
+          <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/prototyp.png" class="Logo-Bereiche">
+          <h4 class="centered-heading">Prototypische Teams</h4>
+        </div>
+        <p>Begleitung von Pilotteams mit echten KI-Agenten im Arbeitsalltag.</p>
+        <ul>
+          <li>Identifikation geeigneter Pilotbereiche</li>
+          <li>Begleitung interdisziplinärer Teams</li>
+          <li>Evaluation von Akzeptanz & kulturellem Impact</li>
+        </ul>
       </div>
-      <p>Begleitung von Pilotteams mit echten KI-Agenten im Arbeitsalltag.</p>
-      <ul>
-        <li>Identifikation geeigneter Pilotbereiche für KI-Integration</li>
-        <li>Begleitung interdisziplinärer Teams mit real eingesetzten KI-Agenten</li>
-        <li>Evaluation von Akzeptanz, Effizienz und kulturellem Impact im Arbeitsalltag</li>
-      </ul>
-    </div>
     </a>
   </div>
 </div>
