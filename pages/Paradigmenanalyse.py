@@ -99,10 +99,10 @@ Die Erkenntnis: Viele Modelle bieten weiterhin wertvolle Impulse – aber nur in
 🔧 Gemeinsam mit Ihnen wählen wir das passende Modell oder kombinieren mehrere Denkansätze zu einer maßgeschneiderten Transformationslogik für Ihre Organisation.
 """)
 
-# Team-Workshop zur kollektiven Reflexion
-st.markdown("""
-### Team-Workshop zur kollektiven Reflexion
+# --- Divider ---
+st.markdown('<div class="divider"><span>Team-Workshop zur kollektiven Reflexion</span></div>', unsafe_allow_html=True)
 
+st.markdown("""
 Veränderung beginnt nicht auf dem Papier, sondern in den Köpfen. Deshalb integrieren wir einen Team-Workshop, der Ihre Führungskräfte und Schlüsselpersonen aktiviert:
 
 - Reflexion über bestehende Paradigmen und ihre Wirkung
