@@ -142,13 +142,14 @@ st.markdown("""
     .catchfrase p {
         font-size: 1rem;
     }
-    .cta-button {
-        width: 100%;
-        font-size: 1.1rem;
-        padding: 1rem;
-        display: block;
-        margin: 0 auto;
-    }
+.cta-button {
+    display: inline-block;
+    font-size: clamp(0.9rem, 4vw, 1.1rem);  /* 📱 dynamische Schriftgröße */
+    padding: clamp(0.6rem, 2.5vw, 1rem) clamp(1rem, 6vw, 2rem); /* 📱 dynamisches Padding */
+    max-width: 90vw;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
     .Logo-Bereiche {
         height: 70px;
     }
