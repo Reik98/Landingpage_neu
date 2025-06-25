@@ -42,7 +42,7 @@ st.markdown("""
             margin: 2rem 0;
         }
         .divider::before, .divider::after {
-            content: ''; flex: 1; border-bottom: 2px solid #fddb3a;
+            content: ''; flex: 1; border-bottom: 2px solid #008B92;
         }
         .divider:not(:empty)::before { margin-right: 0.75em; }
         .divider:not(:empty)::after { margin-left: 0.75em; }
