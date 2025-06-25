@@ -57,60 +57,62 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Divider ---
-st.markdown('<div class="divider"><span>Analyse und Weiterentwicklung systemischer Logiken</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="divider"><span>„KI verändert Führung“ – Impulsvortrag</span></div>', unsafe_allow_html=True)
 
 st.markdown("""
-Wie „funktioniert“ Ihre Organisation – im Inneren?
-Wir analysieren, welche systemischen Prinzipien heute Ihre Zusammenarbeit, Entscheidungswege und Kommunikation prägen. Dabei gehen wir Fragen nach wie:
+Ein provokanter, inspirierender Einstieg in das Thema:
 
-- Welche impliziten Regeln steuern Verhalten?
+- Warum klassische Führungslogiken (Planung, Kontrolle, Hierarchie) an Grenzen stoßen
 
-- Wie zirkulär oder linear verlaufen Entscheidungsprozesse?
+- Welche neuen Anforderungen KI an Leadership stellt (z. B. Kontextsensibilität, Datenethik, Vertrauen in emergente Prozesse)
 
-- Wie wird Wissen geteilt – explizit, implizit, selektiv?
+- Welche Haltung heute zukunftsfähig macht: Orientierung statt Ansage, Verantwortung statt Kontrolle, Dialog statt Durchgriff
 
-- Wo entstehen Muster, Schleifen, blinde Flecken?
-
-Gemeinsam identifizieren wir systemische Engpässe, die den produktiven Umgang mit KI behindern – und entwickeln neue Denk- und Handlungsmuster, die auf Verknüpfung statt Kontrolle, Wirkung statt Anweisung, und Selbstorganisation statt Top-Down setzen.
+Der Vortrag verbindet Forschung, Praxis und persönliche Geschichten – perfekt für interne Veranstaltungen, Strategieklausuren oder Leadership-Days.
 
 """)
 
 # --- Divider ---
-st.markdown('<div class="divider"><span>Übersetzung auf lernende Maschinen</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="divider"><span>„Systemisches Denken im Zeitalter von KI“ – Teamworkshop</span></div>', unsafe_allow_html=True)
 
 st.markdown("""
-Systemisches Denken endet nicht beim Menschen – es bezieht KI als Akteur ein.
+„Nicht die stärkste Organisation überlebt, sondern die anpassungsfähigste.“
 
-Wir helfen Ihnen, systemische Prinzipien auf KI zu übertragen, z. B.:
+In diesem Workshop erleben Teams, wie systemisches Denken hilft, KI nicht nur technisch, sondern auch kulturell zu integrieren.
 
-- Welche Beobachtungslogiken muss KI abbilden können?
+Inhalte & Übungen:
 
-- Wie können Feedbackschleifen mit KI sinnvoll gestaltet werden?
+- Eigene Muster erkennen: Wie reagiert unsere Organisation auf Wandel?
 
-- Welche „Bedeutung“ erhalten Daten im sozialen Kontext?
+- Umgang mit Komplexität & Nichtwissen (statt Scheinlösungen und Aktionismus)
 
-- Wie differenziert eine Organisation zwischen menschlicher und maschineller Kommunikation?
+- Resonanz mit Maschinen? – Wie Systeme kommunizieren, beobachten und lernen
 
-Durch diese Übersetzung wird KI nicht als Fremdkörper erlebt, sondern als Teil des organisationalen Systems – mit klaren Rollen und wirksamer Anschlussfähigkeit.
+- Entwicklung eines systemischen Blicks auf Führung, Rolle, Verantwortung
+
+Der Workshop schafft ein gemeinsames Verständnis und legt die Grundlage für weitere Veränderungsschritte.
+
+
 """)
 
 # --- Divider ---
-st.markdown('<div class="divider"><span>Design neuer Interaktionsmuster mit KI</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="divider"><span>„Framing & Narrative für KI-Kommunikation“ – Kommunikationsstrategie</span></div>', unsafe_allow_html=True)
 
 st.markdown("""
-Veränderung beginnt nicht bei der Technologie, sondern bei der Beziehung zur Technologie.
+Technische Systeme brauchen kulturelle Erzählungen.
+Akzeptanz entsteht nicht durch Technik – sondern durch Bedeutung.
 
-Wir gestalten mit Ihnen neue Interaktionsmuster, in denen KI als kollegiale Ressource wirkt – z. B.:
+In diesem Modul arbeiten wir gemeinsam mit Führungskräften und Kommunikator:innen an einer narrativen Strategie, die KI sinnvoll in die Organisation integriert:
 
-- Welche Aufgaben übernimmt KI – und wie werden sie übergeben?
+- Welche Erzählungen über KI existieren bereits im Unternehmen?
 
-- Wie sehen dialogische Schnittstellen aus, die Vertrauen schaffen?
+- Welche Ängste, Hoffnungen oder Widerstände sind daran geknüpft?
 
-- Wie verändert sich die Teamdynamik, wenn KI mitarbeitet?
+- Wie gestalten wir ein Narrativ, das Vertrauen, Sinn und Orientierung gibt?
 
-- Welche Regeln und Rituale unterstützen produktives Mensch-KI-Zusammenspiel?
+- Wie differenzieren wir zwischen interner Kommunikation, Employer Branding und Stakeholder-Ansprache?
 
-Dazu entwickeln wir Prototypen, testen sie in Pilot-Settings und begleiten ihre kulturelle Integration.
+Das Ergebnis: Eine klare, authentische Tonalität für Ihre KI-Initiativen – getragen von Ihren Führungskräften.
 """)
 
 # --- Footer ---
