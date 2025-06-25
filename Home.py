@@ -136,6 +136,7 @@ st.markdown("""
         aspect-ratio: 4 / 3; /* ✅ Verhältnis erzwingen (z. B. 3:2 oder 4:3) */
         background-repeat: no-repeat;
         background-position: center;
+        background-size: contain; /* 👈 wichtig: Bild vollständig zeigen */
         }
     .hero h1 {
         font-size: 1.8rem;
