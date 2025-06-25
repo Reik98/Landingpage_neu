@@ -41,6 +41,18 @@ st.markdown("""
     font-size: 1.3rem;
     margin-top: 3.5rem;
 }
+.divider {
+            display: flex; align-items: center; text-align: center;
+            margin: 2rem 0;
+        }
+        .divider::before, .divider::after {
+            content: ''; flex: 1; border-bottom: 2px solid #008B92;
+        }
+        .divider:not(:empty)::before { margin-right: 0.75em; }
+        .divider:not(:empty)::after { margin-left: 0.75em; }
+        .divider span {
+            color: #444; font-weight: 600; font-size: 2.0rem;
+        }
 </style>
 <div class="hero-about">
     <h1>Systemisches Design</h1>
