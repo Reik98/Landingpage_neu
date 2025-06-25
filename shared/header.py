@@ -73,7 +73,7 @@ def show_header():
         }
 
         .logo-partner {
-            height: 18px;
+            height: 20px;
             margin-bottom: 0.5rem;
         }
 
