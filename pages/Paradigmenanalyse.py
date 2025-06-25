@@ -82,10 +82,10 @@ In unserem Analysemodul untersuchen wir u. a.:
 
 """)
 
-# Bewertung aktueller Modelle auf Zukunftstauglichkeit
-st.markdown("""
-### Bewertung aktueller Modelle auf Zukunftstauglichkeit
+# --- Divider ---
+st.markdown('<div class="divider"><span>Bewertung aktueller Modelle auf Zukunftstauglichkeit</span></div>', unsafe_allow_html=True)
 
+st.markdown("""
 Unsere Organisationsentwickler:innen haben in einer interdisziplinären Studie klassische OE-Modelle systematisch auf ihre Tauglichkeit für eine KI-getriebene Zukunft hin untersucht. Dabei wurden unter anderem folgende Fragen betrachtet:
 
 - Unterstützt das Modell dynamisches Lernen und Selbstorganisation?
