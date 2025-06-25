@@ -45,7 +45,7 @@ st.markdown("""
 .hero-about {
     height: auto;
     aspect-ratio: 3 / 2; /* ✅ Verhältnis erzwingen (z. B. 3:2 oder 4:3) */
-    background-size: contain; /* 👈 wichtig: Bild vollständig zeigen */
+    background-size: cover; /* 👈 wichtig: Bild vollständig zeigen */
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;  /* ✅ Kein Fallback-Hintergrund */
