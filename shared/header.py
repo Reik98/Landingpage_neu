@@ -33,6 +33,7 @@ def show_header():
         gap: 2rem;
         margin-left: auto;
         font-weight: bold;
+        flex-wrap: wrap;
     }
 
     .nav-container a {
@@ -43,6 +44,7 @@ def show_header():
         text-decoration: none;
         font-size: 1.1rem;
         transition: background-color 0.3s ease;
+        white-space: nowrap;
     }
 
     .nav-container a:hover {
@@ -56,11 +58,11 @@ def show_header():
     }
 
     @media (max-width: 768px) {
-        header {  
+        header {
             flex-wrap: wrap;
             justify-content: space-between;
             height: auto;
-            padding: 1rem;
+            padding: 0.8rem 1rem;
             align-items: flex-start;
         }
 
@@ -75,22 +77,20 @@ def show_header():
         }
 
         .nav-container {
-            flex-direction: column;       /* 👉 untereinander */
-            align-items: flex-end;        /* 👉 rechtsbündig */
-            width: 100%;                  /* volle Breite für Platzierung */
-            margin-top: 0.5rem;
             gap: 0.5rem;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            width: 100%;
+            margin-top: 0.5rem;
         }
 
         .nav-container a {
-            font-size: 1rem;
-            padding: 0.5rem 1rem;
-            width: auto;
-            text-align: right;
+            font-size: 0.9rem;
+            padding: 0.4rem 0.8rem;
         }
 
         body {
-            padding-top: calc(3.0rem + 140px);
+            padding-top: calc(3.0rem + 130px);
         }
     }
 
