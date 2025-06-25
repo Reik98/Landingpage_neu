@@ -73,11 +73,11 @@ st.markdown('<div class="divider"><span>Entwicklung akzeptanzfördernder Narrati
 st.markdown("""
 Narrative formen unser Denken. Sie definieren, wie wir Technologie sehen – als Bedrohung oder Chance, als Werkzeug oder als Partner. In unseren Workshops helfen wir Ihnen, zielgruppenspezifische Geschichten zu entwickeln, die Vertrauen schaffen:
 
-Welche Werte und Bilder verknüpfen Ihre Mitarbeitenden mit KI?
+    - Welche Werte und Bilder verknüpfen Ihre Mitarbeitenden mit KI?
 
-Welche Geschichten lösen Widerstand aus – welche öffnen Perspektiven?
+    - Welche Geschichten lösen Widerstand aus – welche öffnen Perspektiven?
 
-Wie kann KI als unterstützender Begleiter statt als Kontrollinstanz erscheinen?
+    - Wie kann KI als unterstützender Begleiter statt als Kontrollinstanz erscheinen?
 
 📌 Wir entwickeln mit Ihnen organisationsspezifische Narrative, die emotional andocken, Ängste entkräften und ein gemeinsames Zukunftsbild transportieren.
 
@@ -90,11 +90,11 @@ st.markdown("""
 Kommunikation mit KI ist mehr als Inhalt – sie ist Stimmung, Stimme und Zwischenraum.
 Wir untersuchen mit Ihnen:
 
-Welche Tonalität passt zu Ihrer Kultur? Förmlich, kollegial, inspirierend?
+- Welche Tonalität passt zu Ihrer Kultur? Förmlich, kollegial, inspirierend?
 
-Wie spricht KI mit Führungskräften vs. operativen Teams?
+- Wie spricht KI mit Führungskräften vs. operativen Teams?
 
-Welche Worte fördern Autonomie, welche erzeugen Reaktanz?
+- Welche Worte fördern Autonomie, welche erzeugen Reaktanz?
 
 Mithilfe von Tonalitätsprototypen und Sprachstil-Simulationen arbeiten wir an einem Stil, der Vertrauen schafft – ohne Künstlichkeit, ohne Entfremdung.
 
