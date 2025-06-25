@@ -114,6 +114,36 @@ st.markdown("""
     }
 }
 </style>
+<style>
+@media (prefers-color-scheme: dark) {
+    .events-hero {
+        background-color: #1e1e1e !important;
+        color: #ffffff !important;
+        text-shadow: none;
+    }
+
+    .catchfrase,
+    .event-box {
+        background-color: #2a2a2a !important;
+        color: #ffffff !important;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .event-box h4,
+    .catchfrase h3 {
+        color: #00c6d2 !important;
+    }
+
+    .event-box span {
+        color: #fddb3a !important;
+    }
+
+    footer {
+        background-color: transparent;
+        color: #ccc !important;
+    }
+}
+</style>
 
 <div class="events-hero">
     <h1>Events & Vorträge</h1>
