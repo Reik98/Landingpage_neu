@@ -74,7 +74,7 @@ def show_header():
 
         .logo-partner {
             height: 18px;
-            margin-bottom: 0.7rem;
+            margin-bottom: 0.9rem;
         }
 
         .nav-container {
