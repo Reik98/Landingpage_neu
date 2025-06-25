@@ -60,9 +60,9 @@ def show_header():
     @media (max-width: 768px) {
         header {
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;  /* zentriert alles im Header */
             height: auto;
-            padding: 0.8rem 1rem;
+            padding: 1rem;
             align-items: flex-start;
         }
 
@@ -77,10 +77,10 @@ def show_header():
         }
 
         .nav-container {
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            justify-content: flex-end;
+            flex-direction: row;
+            justify-content: center;  /* 👉 Links zentriert */
             width: 100%;
+            gap: 0.5rem;
             margin-top: 0.5rem;
         }
 
