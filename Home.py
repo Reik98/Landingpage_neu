@@ -103,10 +103,19 @@ st.markdown("""
             
         .feature-box h4 { margin-top: 0; color: #003865; }
 
-        .divider {
-            display: flex; align-items: center; text-align: center;
-            margin: 2rem 0;
-        }
+        .feature-column {
+            flex: 1 1 calc(50% - 1rem);  /* 2 Spalten mit Abstand */
+            }
+
+        /* 👉 Auf kleinen Bildschirmen: volle Breite */
+        @media (max-width: 768px) {
+            .feature-column {
+            flex: 1 1 100%;
+            .divider {
+                display: flex; align-items: center; text-align: center;
+                margin: 2rem 0;
+            }
+            
         .divider::before, .divider::after {
             content: ''; flex: 1; border-bottom: 2px solid #fddb3a;
         }
@@ -218,11 +227,11 @@ st.markdown('<div class="divider"><span>Unsere Leistungsangebote</span></div>', 
 
 # --- Leistungsangebote (2-Spalten-Layout) ---
 st.markdown("""
-<div style="display: flex; justify-content: space-between; gap: 2rem; padding: 2rem;">
-  <div style="flex: 1;">
-    <a href="/Paradigmenanalyse" class="feature-link">
-    <div class="feature-box">
-      <div class="centered-image">
+<div class="feature-box">
+    <div class="feature-column">
+        <a href="/Paradigmenanalyse" class="feature-link">
+            <div class="feature-box">
+                <div class="centered-image">
         <img src="https://raw.githubusercontent.com/Reik98/Landingpage/main/Analyse.png" class="Logo-Bereiche">
         <h4 class="centered-heading">Paradigmenanalyse</h4>
       </div>
@@ -263,7 +272,6 @@ st.markdown("""
     </div>
     </a>
   </div>
-  <div style="flex: 1;">
     <a href="/KI_Framing_Workshops" class="feature-link">
     <div class="feature-box">
       <div class="centered-image">
