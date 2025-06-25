@@ -139,7 +139,7 @@ st.markdown("""
         background-size: contain; /* 👈 wichtig: Bild vollständig zeigen */
         }
     .hero h1 {
-        font-size: clamp(1.8rem, 3.5vw, 1rem);
+        font-size: 1.5rem;
     }
     .hero p {
         font-size: 1rem;
