@@ -50,61 +50,60 @@ st.markdown("""
 st.markdown("""
 <div class="catchfrase">
     <h3>Akzeptanz beginnt mit Sprache. Und Haltung.</h3>
-    <h1>Im Zeitalter der Künstlichen Intelligenz reicht es nicht aus, Systeme technisch zu integrieren – sie müssen verstanden, gefühlt und akzeptiert werden.<h1>
-    <h1>Der Schlüssel liegt in der Art der Kommunikation.<h1>
+    <p>Im Zeitalter der Künstlichen Intelligenz reicht es nicht aus, Systeme technisch zu integrieren – sie müssen verstanden, gefühlt und akzeptiert werden.<p>
+    <p>Der Schlüssel liegt in der Art der Kommunikation.<p>
 </div>
 """, unsafe_allow_html=True)
 
 # --- Divider ---
-st.markdown('<div class="divider"><span>Analyse Ihrer bestehenden Veränderungslogik</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="divider"><span>Entwicklung akzeptanzfördernder Narrative</span></div>', unsafe_allow_html=True)
 
 st.markdown("""
-Viele Organisationen setzen nach wie vor auf klassische Methoden zur Steuerung von Wandel – häufig inspiriert von linearen Modellen wie denen von Kotter, Senge oder Luhmann. Doch die Frage ist nicht, ob sich Ihre Organisation verändert, sondern wie.
+Narrative formen unser Denken. Sie definieren, wie wir Technologie sehen – als Bedrohung oder Chance, als Werkzeug oder als Partner. In unseren Workshops helfen wir Ihnen, zielgruppenspezifische Geschichten zu entwickeln, die Vertrauen schaffen:
 
-In unserem Analysemodul untersuchen wir u. a.:
+Welche Werte und Bilder verknüpfen Ihre Mitarbeitenden mit KI?
 
-- Anpassungsfähigkeit: Wie kontinuierlich und proaktiv reagiert Ihre Organisation auf interne und externe Veränderungen? Wird Wandel als Projekt verstanden – oder als integraler Teil des Systems?
+Welche Geschichten lösen Widerstand aus – welche öffnen Perspektiven?
 
-- Systemisches Verhalten: Wird Ihre Organisation als lebendiges, lernendes System betrachtet, das auf neue Impulse adaptiv reagiert? Oder überwiegen starre Strukturen, klare Hierarchien und festgelegte Rollen?
+Wie kann KI als unterstützender Begleiter statt als Kontrollinstanz erscheinen?
 
-- Veränderungsstrategie: Gibt es einen langfristig gedachten Change-Fahrplan, der auf Selbststeuerung, Mitarbeiterpartizipation und iteratives Lernen setzt?
-
-👉 Ziel: Wir machen sichtbar, wie reif, anschlussfähig und anpassungsfähig Ihre aktuelle Veränderungslogik im Kontext von KI tatsächlich ist.
+📌 Wir entwickeln mit Ihnen organisationsspezifische Narrative, die emotional andocken, Ängste entkräften und ein gemeinsames Zukunftsbild transportieren.
 
 """)
 
 # --- Divider ---
-st.markdown('<div class="divider"><span>Bewertung aktueller Modelle auf Zukunftstauglichkeit</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="divider"><span>Gestaltung emotionaler Tonalitäten</span></div>', unsafe_allow_html=True)
 
 st.markdown("""
-Unsere Organisationsentwickler:innen haben in einer interdisziplinären Studie klassische OE-Modelle systematisch auf ihre Tauglichkeit für eine KI-getriebene Zukunft hin untersucht. Dabei wurden unter anderem folgende Fragen betrachtet:
+Kommunikation mit KI ist mehr als Inhalt – sie ist Stimmung, Stimme und Zwischenraum.
+Wir untersuchen mit Ihnen:
 
-- Unterstützt das Modell dynamisches Lernen und Selbstorganisation?
+Welche Tonalität passt zu Ihrer Kultur? Förmlich, kollegial, inspirierend?
 
-- Fördert es interdisziplinäre Zusammenarbeit und mensch-maschinelle Rollenvielfalt?
+Wie spricht KI mit Führungskräften vs. operativen Teams?
 
-- Wie flexibel ist es in Bezug auf komplexe, datengetriebene Umwelten?
+Welche Worte fördern Autonomie, welche erzeugen Reaktanz?
 
-Die Erkenntnis: Viele Modelle bieten weiterhin wertvolle Impulse – aber nur in Kombination mit systemischen, iterativen und KI-kompatiblen Denkweisen sind sie wirklich zukunftsfähig.
+Mithilfe von Tonalitätsprototypen und Sprachstil-Simulationen arbeiten wir an einem Stil, der Vertrauen schafft – ohne Künstlichkeit, ohne Entfremdung.
 
-🔧 Gemeinsam mit Ihnen wählen wir das passende Modell oder kombinieren mehrere Denkansätze zu einer maßgeschneiderten Transformationslogik für Ihre Organisation.
+📣 Ergebnis: Eine Tonalität, die KI greifbar macht – und Ihre Organisation darin wiedererkennbar lässt.
 """)
 
 # --- Divider ---
-st.markdown('<div class="divider"><span>Team-Workshop zur kollektiven Reflexion</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="divider"><span>Abgrenzung zu zwischenmenschlicher Kommunikation</span></div>', unsafe_allow_html=True)
 
 st.markdown("""
-Veränderung beginnt nicht auf dem Papier, sondern in den Köpfen. Deshalb integrieren wir einen Team-Workshop, der Ihre Führungskräfte und Schlüsselpersonen aktiviert:
+KI darf nicht vorgeben, menschlich zu sein – sie muss einen eigenen Kommunikationsraum erhalten: transparent, unterstützend, aber niemals vermenschlichend.
 
-- Reflexion über bestehende Paradigmen und ihre Wirkung
+In unseren Workshops klären wir gemeinsam:
 
-- Austausch über gewünschte Zukunftsbilder und kollektive Werte
+Wo verläuft die Grenze zwischen Authentizität und Täuschung?
 
-- Bewertung interner Spannungsfelder & Chancen im Umgang mit KI
+Wie kann KI klar und wertschätzend kommunizieren – ohne Empathie zu imitieren?
 
-- Entwicklung erster Hypothesen für ein neues Veränderungsnarrativ
+Wann hilft es, der KI eine „Stimme“ zu geben – und wann nicht?
 
-📌 Ergebnis: Ein geteiltes Verständnis darüber, was Veränderung in Ihrer Organisation bedeutet – heute, morgen und im Zeitalter von KI.
+🧩 Ziel ist eine klare Rollendefinition der KI als Dialogpartnerin, deren Kommunikation strukturiert, aber nicht emotional übergriffig ist.
 """)
 
 # --- Footer ---
