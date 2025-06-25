@@ -67,6 +67,7 @@ st.markdown("""
 ### Bewertung aktueller Modelle auf Zukunftstauglichkeit
 
 Unsere Organisationsentwickler:innen haben in einer groß angelegten Studie Modelle zur Organisationsentwicklung bezüglich Ihrer Tauglichkeit einer KI-Integration untersucht.
+
 Wir helfen Ihnen dabei, das richtige Modell zu finden und Ihre Organisation auf ein neues Level zu heben!
 """)
 
