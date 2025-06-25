@@ -68,7 +68,7 @@ def show_header():
         }
 
         .logo-main {
-            height: 30px;
+            height: 35px;
             margin-bottom: 0.5rem;
         }
 
