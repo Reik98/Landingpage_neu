@@ -45,34 +45,70 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# --- Catchfrase
+# --- Catchfrase / Vorstellung ---
 st.markdown("""
 <div class="catchfrase">
-    <h3>Seite im Aufbau</h3>
-    <p>Weitere Inhalte folgen.</p>
+    <h3>Künstliche Intelligenz braucht kulturelle Intelligenz.</h3>
+    <p>Viele KI-Initiativen scheitern nicht an Technologie – sondern an Haltung, Strukturen und fehlender kultureller Anschlussfähigkeit.<p>
+    <p>Mit unserem Ansatz identifizieren wir kulturelle Reifegrade und machen Ihre Organisation fit für echte Transformation.<p>
 </div>
 """, unsafe_allow_html=True)
 
-# --- Geschichte ---
-st.markdown("""
-### Erstens
+# --- Divider ---
+st.markdown('<div class="divider"><span>Tool-gestützte Ist-Erhebung kultureller Reife</span></div>', unsafe_allow_html=True)
 
-...
+st.markdown("""
+Unsere eigens entwickelten Diagnoseinstrumente messen, wie offen Ihre Organisation für den produktiven Einsatz von KI ist – kulturell, strukturell und kommunikativ.
+
+Dabei analysieren wir unter anderem:
+
+Wie werden Entscheidungen getroffen – datenbasiert oder erfahrungsgetrieben?
+
+Wie hoch ist das Vertrauen in technologische Systeme im Alltag?
+
+Welche Narrative, Werte und Grundhaltungen prägen die Zusammenarbeit?
+
+Wie adaptiv ist Ihre Organisation bei Veränderungen?
+
+🔍 Mithilfe von standardisierten Fragebögen, kulturellen Metriken und qualitativen Interviews erhalten Sie ein klares Bild über Ihre KI-Kultur – nicht als Zustand, sondern als Entwicklungspotenzial.
+
 """)
 
-# --- Vision & Werte ---
-st.markdown("""
-### Zweitens
+# --- Divider ---
+st.markdown('<div class="divider"><span>Entwicklung von Rollenmodellen für „KI im Team“</span></div>', unsafe_allow_html=True)
 
-...
+st.markdown("""
+KI verändert nicht nur Prozesse – sie verändert Beziehungen und Rollen.
+
+Wir entwickeln mit Ihnen konkrete Rollenmodelle, die beschreiben:
+
+Wie und wo KI im Team eingebunden wird (Assistenz, Entscheidungsvorbereitung, Automatisierung)
+
+Welche Verantwortung beim Menschen bleibt – und welche nicht
+
+Wie Führung neu gedacht werden muss, wenn Maschinen mitdenken
+
+Dabei stehen Transparenz, Akzeptanz und psychologische Sicherheit im Vordergrund: Wer KI versteht, vertraut ihr auch.
+📌 Ergebnis ist ein Modell, das Mensch und Maschine als komplementäre Partner positioniert – nicht als Konkurrenten.
 """)
 
-# --- Teamvorstellung ---
-st.markdown("""
-### Drittens
+# --- Divider ---
+st.markdown('<div class="divider"><span>Integrationsstrategie inkl. kulturellem Re-Design</span></div>', unsafe_allow_html=True)
 
-...
+st.markdown("""
+Basierend auf Ihrer Ausgangslage entwickeln wir eine passgenaue Strategie zur kulturellen Integration von KI. Diese umfasst:
+
+Kulturelle Entwicklungsfelder & Wachstumsachsen
+
+Empfehlungen für konkrete Maßnahmen (z. B. Kommunikationsinitiativen, Führungskräftetrainings, Rituale)
+
+Change-Kommunikation, die Haltung und Richtung gibt
+
+Architekturen für Pilotprojekte & prototypische Teams
+
+Zusätzlich gestalten wir ein kulturelles Re-Design, das nicht bei Werten und Postern endet, sondern sich in Verhalten, Systemlogiken und Entscheidungsstrukturen niederschlägt.
 """)
+
 
 # --- Footer ---
 st.markdown('<footer style="margin-top: 5rem; text-align: center; font-size: 0.9rem; color: #888;">&copy; 2025 Aicura Consulting – DSGVO-konform · Impressum · Datenschutz</footer>', unsafe_allow_html=True)
