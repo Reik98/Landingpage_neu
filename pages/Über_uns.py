@@ -46,7 +46,7 @@ st.markdown("""
     .hero-about {
         height: auto;
         aspect-ratio: 3 / 2;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         background-color: transparent; /* ✅ auch hier transparent */
