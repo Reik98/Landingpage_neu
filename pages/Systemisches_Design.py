@@ -15,15 +15,16 @@ show_header()
 # --- Hero-Bild: https://www.iis.fraunhofer.de/de/ff/lv/net/jcr:content/stage/stageParsys/stage_slide/image.img.png/1643987344631/20211018-Vernetzung-AdobeStock-285478116-v4-WEB.png---
 st.markdown("""
 <style>
+/* ---------- HERO ---------- */
 .hero-about {
     position: relative;
     width: 100%;
     height: 700px;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url('https://raw.githubusercontent.com/Reik98/Landingpage/main/Systemdesign_1.png');
+                      url('https://raw.githubusercontent.com/Reik98/Landingpage/main/Systemdesign_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,27 +33,134 @@ st.markdown("""
     text-align: center;
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
+
+/* ---------- TEXT ---------- */
 .hero-about h1 {
     font-size: 3rem;
-    margin-bottom: 11.5rem;
-    margin-top: 8.5rem;
+    margin-bottom: 0.5rem;
 }
 .hero-about p {
     font-size: 1.3rem;
-    margin-top: 3.5rem;
+    margin-top: 5.5rem;
 }
+
+/* ---------- DIVIDER ---------- */
 .divider {
-            display: flex; align-items: center; text-align: center;
+            display: flex; flex-wrap: nowrap; align-items: center; text-align: center;
             margin: 2rem 0;
         }
         .divider::before, .divider::after {
-            content: ''; flex: 1; border-bottom: 2px solid #008B92;
+            content: ''; flex: 1; border-bottom: 2px solid #fddb3a;
         }
         .divider:not(:empty)::before { margin-right: 0.75em; }
         .divider:not(:empty)::after { margin-left: 0.75em; }
         .divider span {
-            color: #444; font-weight: 600; font-size: 2.0rem;
+            color: #444; font-weight: 600; font-size: 2.5rem;
         }
+
+
+/* ---------- CATCHFRASE ---------- */
+.catchfrase {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ---------- DARKMODE ---------- */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+    .catchfrase {
+        background-color: #1f1f1f;
+        color: #ffffff;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    }
+    .divider span {
+        color: #ffffff !important;
+    }
+    .hero-about {
+        text-shadow: none;
+    }
+    h1, h2, h3, h4 {
+        color: #00c6d2;
+    }
+    footer {
+        color: #aaa;
+    }
+}
+
+/* ---------- MEDIA QUERY ---------- */
+@media (max-width: 768px) {
+    .hero-about {
+        height: auto;
+        aspect-ratio: 3 / 2;
+        padding: 6rem 1rem 2rem 1rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .hero-about h1 {
+        font-size: 1.3rem;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .hero-about p {
+        font-size: 0.9rem;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+    .catchfrase {
+        padding: 1.2rem;
+    }
+    .catchfrase h3 {
+        font-size: 1.5rem;
+    }
+    .catchfrase p {
+        font-size: 1rem;
+    }
+    .divider {
+    flex-direction: row;
+    margin: 1.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+    border-bottom: 1.5px solid #fddb3a;  /* etwas dünner auf Mobil */
+}
+
+.divider:not(:empty)::before {
+    margin-right: 0.5em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 0.5em;
+}
+
+.divider span {
+    font-size: 1.3rem;  /* 👈 kleiner auf Mobil */
+    font-weight: 600;
+    line-height: 1.2;
+    display: inline-block;
+    max-width: 90%;
+}
+
+    footer {
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+    h1, h2, h3, h4 {
+        font-size: 1.4rem;
+    }
+    p, li {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
 </style>
 <div class="hero-about">
     <h1>Systemisches Design</h1>
