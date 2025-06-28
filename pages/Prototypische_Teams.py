@@ -33,7 +33,7 @@ st.markdown("""
     color: white;
     text-align: center;
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
-    margin-top: 2.0rem;
+    margin-top: 4.0rem;
 }
 
 /* ---------- TEXT ---------- */
