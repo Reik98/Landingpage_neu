@@ -33,6 +33,33 @@ st.markdown("""
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
+
+
+
+/* Overlay nur über dem Bildbereich */
+.hero-about::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Inhalte über das Overlay legen */
+.hero-about h1,
+.hero-about p {
+    position: relative;
+    color: white;
+    z-index: 2;
+    text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+
+
+
+
 /* ---------- TEXT ---------- */
 .hero-about h1 {
     font-size: 3rem;
