@@ -107,7 +107,7 @@ st.markdown("""
     .hero-about p {
         font-size: 0.9rem;
         margin-top: 0rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
     .catchfrase {
         padding: 1.2rem;
