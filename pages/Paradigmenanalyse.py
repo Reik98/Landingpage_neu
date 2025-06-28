@@ -43,7 +43,7 @@ st.markdown("""
 
 /* ---------- DIVIDER ---------- */
 .divider {
-            display: flex; align-items: center; text-align: center;
+            display: flex; flex-wrap: nowrap; align-items: center; text-align: center;
             margin: 2rem 0;
         }
         .divider::before, .divider::after {
