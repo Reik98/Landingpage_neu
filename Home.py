@@ -105,18 +105,19 @@ st.markdown("""
             
         .feature-box h4 { margin-top: 0; color: #003865; }
 
-        .divider {
-            display: flex; align-items: center; text-align: center;
+.divider {
+            display: flex; flex-wrap: nowrap; align-items: center; text-align: center;
             margin: 2rem 0;
         }
         .divider::before, .divider::after {
-            content: ''; flex: 1; border-bottom: 2px solid #fddb3a;
+            content: ''; flex: 1; border-bottom: 2.5px solid #008B92;
         }
         .divider:not(:empty)::before { margin-right: 0.75em; }
         .divider:not(:empty)::after { margin-left: 0.75em; }
         .divider span {
             color: #444; font-weight: 600; font-size: 2.5rem;
         }
+
 .responsive-quiz-button {
     font-size: 1.5rem;
     padding: 1.5rem 3rem;
@@ -195,27 +196,30 @@ st.markdown("""
         display: inline-block;
         max-width: 90vw;
     }
-    .divider {
+.divider {
     flex-direction: row;
     margin: 1.5rem 0;
 }
 
 .divider::before,
 .divider::after {
-    border-bottom: 1.5px solid #fddb3a;  /* etwas dünner auf Mobil */
+    border-bottom: 2.5px solid #008B92;  /* etwas dünner auf Mobil */
 }
 
 .divider:not(:empty)::before {
-    margin-right: 0.5em;
+    margin-right: 0.0em;
 }
 
 .divider:not(:empty)::after {
-    margin-left: 0.5em;
+    margin-left: 0.0em;
 }
 
 .divider span {
-    font-size: 1.6rem;  /* 👈 kleiner auf Mobil */
+    font-size: 1.3rem;  /* 👈 kleiner auf Mobil */
     font-weight: 600;
+    line-height: 1.2;
+    display: inline-block;
+    max-width: 90%;
 }
 .testimonial-box {
     flex-direction: column !important;
@@ -244,9 +248,14 @@ st.markdown("""
     .centered-heading {
         color: #008B92 !important;
     }
-    .divider span {
+.divider span {
         color: #ffffff !important;
     }
+    .divider::before,
+    .divider::after {
+        border-bottom: 2.5px solid #fddb3a !important;
+    }
+
     .cta-button {
         background-color: #008B92 !important;
         color: #ffffff !important;
