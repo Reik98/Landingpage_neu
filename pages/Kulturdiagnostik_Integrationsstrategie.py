@@ -47,16 +47,6 @@ st.markdown("""
     z-index: 1;
 }
 
-/* Inhalte über das Overlay legen */
-.hero-about h1,
-.hero-about p {
-    position: relative;
-    color: white;
-    z-index: 2;
-    text-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
-
-
 
 
 
