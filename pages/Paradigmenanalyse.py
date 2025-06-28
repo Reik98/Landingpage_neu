@@ -12,7 +12,6 @@ show_header()
 # --- Hero-Bild: https://www.immo-invest.ch/paradigmenwechsel-in-der-proptech-welt/---
 st.markdown("""
 <style>
-/* ---------- HERO ---------- */
 .hero-about {
     position: relative;
     width: 100%;
@@ -31,7 +30,6 @@ st.markdown("""
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 
-/* ---------- TEXT ---------- */
 .hero-about h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
@@ -41,7 +39,6 @@ st.markdown("""
     margin-top: 5.5rem;
 }
 
-/* ---------- DIVIDER ---------- */
 .divider {
     display: flex;
     align-items: center;
@@ -62,7 +59,6 @@ st.markdown("""
     font-size: 2.0rem;
 }
 
-/* ---------- CATCHFRASE ---------- */
 .catchfrase {
     background-color: #ffffff;
     padding: 2rem;
@@ -72,7 +68,6 @@ st.markdown("""
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* ---------- DARKMODE ---------- */
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #121212;
@@ -97,7 +92,6 @@ st.markdown("""
     }
 }
 
-/* ---------- MEDIA QUERY ---------- */
 @media (max-width: 768px) {
     .hero-about {
         height: auto;
