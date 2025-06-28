@@ -47,7 +47,7 @@ st.markdown("""
             margin: 2rem 0;
         }
         .divider::before, .divider::after {
-            content: ''; flex: 1; border-bottom: 3px solid #008B92;
+            content: ''; flex: 1; border-bottom: 2.5px solid #008B92;
         }
         .divider:not(:empty)::before { margin-right: 0.75em; }
         .divider:not(:empty)::after { margin-left: 0.75em; }
@@ -82,7 +82,7 @@ st.markdown("""
     }
     .divider::before,
     .divider::after {
-        border-bottom: 3px solid #fddb3a !important;
+        border-bottom: 2.5px solid #fddb3a !important;
     }
     
     .hero-about {
@@ -130,7 +130,7 @@ st.markdown("""
 
 .divider::before,
 .divider::after {
-    border-bottom: 3px solid #008B92;  /* etwas dünner auf Mobil */
+    border-bottom: 2.5px solid #008B92;  /* etwas dünner auf Mobil */
 }
 
 .divider:not(:empty)::before {
