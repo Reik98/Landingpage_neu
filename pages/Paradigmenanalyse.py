@@ -38,7 +38,7 @@ st.markdown("""
 }
 .hero-about p {
     font-size: 1.3rem;
-    margin-top: 5.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /* ---------- DIVIDER ---------- */
