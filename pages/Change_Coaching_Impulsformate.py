@@ -18,7 +18,7 @@ st.markdown("""
     position: relative;
     width: 100%;
     height: 700px;
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
                       url('https://raw.githubusercontent.com/Reik98/Landingpage/main/Coaching.jpg');
     background-size: cover;
     background-repeat: no-repeat;
