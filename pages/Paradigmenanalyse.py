@@ -61,6 +61,7 @@ st.markdown("""
     background-color: #ffffff;
     padding: 2rem;
     margin-top: 2rem;
+    text-align: center;
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
