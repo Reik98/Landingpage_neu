@@ -30,7 +30,7 @@ st.markdown("""
     align-items: center;
     color: white;
     text-align: center;
-    text-shadow: 0 0 10px rgba(0,0,0,1);
+    text-shadow: 0 0 10px rgba(0,0,0,5);
 }
 
 /* ---------- TEXT ---------- */
