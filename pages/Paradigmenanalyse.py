@@ -80,6 +80,9 @@ st.markdown("""
     .divider span {
         color: #ffffff !important;
     }
+    .divider::before, .divider::after {
+        content: ''; flex: 1; border-bottom: 2px solid #008B92;
+    }
     .hero-about {
         text-shadow: none;
     }
