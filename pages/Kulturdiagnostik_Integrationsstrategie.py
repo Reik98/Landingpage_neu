@@ -84,6 +84,7 @@ st.markdown("""
     }
     .hero-about {
         text-shadow: none;
+        background-color: #000000;
     }
     h1, h2, h3, h4 {
         color: #00c6d2;
