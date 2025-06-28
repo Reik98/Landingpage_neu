@@ -21,7 +21,7 @@ st.markdown("""
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: transparent; /* ✅ hier: transparent */
+    background-color: #ffffff; /* statt transparent */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,7 +99,7 @@ st.markdown("""
     }
 
     .hero-about {
-        background-color: transparent; /* oder: #000 für tiefschwarz */
+        background-color: #000000; /* schwarz im Darkmode */
         text-shadow: none;
         color: #ffffff;
     }
