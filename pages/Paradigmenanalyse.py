@@ -137,6 +137,9 @@ st.markdown("""
 .divider span {
     font-size: 1.3rem;  /* 👈 kleiner auf Mobil */
     font-weight: 600;
+    line-height: 1.2;
+    display: inline-block;
+    max-width: 90%;
 }
 
     footer {
