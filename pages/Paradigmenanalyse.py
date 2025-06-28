@@ -12,12 +12,13 @@ show_header()
 # --- Hero-Bild: https://www.immo-invest.ch/paradigmenwechsel-in-der-proptech-welt/---
 st.markdown("""
 <style>
+/* ---------- HERO ---------- */
 .hero-about {
     position: relative;
     width: 100%;
     height: 700px;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url('https://raw.githubusercontent.com/Reik98/Landingpage/main/Paradigmawechsel.jpg');
+                      url('https://raw.githubusercontent.com/Reik98/Landingpage/main/Paradigmawechsel.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,6 +30,8 @@ st.markdown("""
     text-align: center;
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
+
+/* ---------- TEXT ---------- */
 .hero-about h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
@@ -37,19 +40,110 @@ st.markdown("""
     font-size: 1.3rem;
     margin-top: 5.5rem;
 }
-        .divider {
-            display: flex; align-items: center; text-align: center;
-            margin: 2rem 0;
-        }
-        .divider::before, .divider::after {
-            content: ''; flex: 1; border-bottom: 2px solid #008B92;
-        }
-        .divider:not(:empty)::before { margin-right: 0.75em; }
-        .divider:not(:empty)::after { margin-left: 0.75em; }
-        .divider span {
-            color: #444; font-weight: 600; font-size: 2.0rem;
-        }
+
+/* ---------- DIVIDER ---------- */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #008B92;
+}
+.divider:not(:empty)::before { margin-right: 0.75em; }
+.divider:not(:empty)::after { margin-left: 0.75em; }
+.divider span {
+    color: #444;
+    font-weight: 600;
+    font-size: 2.0rem;
+}
+
+/* ---------- CATCHFRASE ---------- */
+.catchfrase {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ---------- DARKMODE ---------- */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+    .catchfrase {
+        background-color: #1f1f1f;
+        color: #ffffff;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    }
+    .divider span {
+        color: #ffffff;
+    }
+    .hero-about {
+        text-shadow: none;
+    }
+    h1, h2, h3, h4 {
+        color: #00c6d2;
+    }
+    footer {
+        color: #aaa;
+    }
+}
+
+/* ---------- MEDIA QUERY ---------- */
+@media (max-width: 768px) {
+    .hero-about {
+        height: auto;
+        aspect-ratio: 3 / 2;
+        padding: 6rem 1rem 2rem 1rem;
+        background-size: cover;
+        background-position: center;
+    }
+    .hero-about h1 {
+        font-size: 2rem;
+    }
+    .hero-about p {
+        font-size: 1.1rem;
+        margin-top: 3rem;
+    }
+    .catchfrase {
+        padding: 1.2rem;
+    }
+    .catchfrase h3 {
+        font-size: 1.5rem;
+    }
+    .catchfrase p {
+        font-size: 1rem;
+    }
+    .divider span {
+        font-size: 1.5rem;
+    }
+    footer {
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+    h1, h2, h3, h4 {
+        font-size: 1.4rem;
+    }
+    p, li {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
 </style>
+
+<div class="hero-about">
+    <h1></h1>
+    <p>Bewertung klassischer OE-Modelle wie Luhmann, Kotter oder Senge in Bezug auf KI-Fähigkeit.</p>
+</div>
+""", unsafe_allow_html=True)
 
 <div class="hero-about">
     <h1> </h1>
