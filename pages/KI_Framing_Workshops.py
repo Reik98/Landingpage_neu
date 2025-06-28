@@ -49,13 +49,14 @@ st.markdown("""
             margin: 2rem 0;
         }
         .divider::before, .divider::after {
-            content: ''; flex: 1; border-bottom: 2px solid #fddb3a;
+            content: ''; flex: 1; border-bottom: 2.5px solid #008B92;
         }
         .divider:not(:empty)::before { margin-right: 0.75em; }
         .divider:not(:empty)::after { margin-left: 0.75em; }
         .divider span {
             color: #444; font-weight: 600; font-size: 2.5rem;
         }
+
 
 
 /* ---------- CATCHFRASE ---------- */
@@ -82,6 +83,11 @@ st.markdown("""
     .divider span {
         color: #ffffff !important;
     }
+    .divider::before,
+    .divider::after {
+        border-bottom: 2.5px solid #fddb3a !important;
+    }
+
     .hero-about {
         text-shadow: none;
     }
@@ -122,22 +128,22 @@ st.markdown("""
     .catchfrase p {
         font-size: 1rem;
     }
-    .divider {
+.divider {
     flex-direction: row;
     margin: 1.5rem 0;
 }
 
 .divider::before,
 .divider::after {
-    border-bottom: 1.5px solid #fddb3a;  /* etwas dünner auf Mobil */
+    border-bottom: 2.5px solid #008B92;  /* etwas dünner auf Mobil */
 }
 
 .divider:not(:empty)::before {
-    margin-right: 0.5em;
+    margin-right: 0.0em;
 }
 
 .divider:not(:empty)::after {
-    margin-left: 0.5em;
+    margin-left: 0.0em;
 }
 
 .divider span {
