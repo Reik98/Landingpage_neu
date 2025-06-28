@@ -18,7 +18,7 @@ st.markdown("""
     height: 700px; /* Desktop */
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),
         url('https://raw.githubusercontent.com/Reik98/Landingpage_neu/main/Über uns.JPG');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #ffffff; /* statt transparent */
