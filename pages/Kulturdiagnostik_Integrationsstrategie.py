@@ -103,14 +103,14 @@ st.markdown("""
         background-position: center;
     }
     .hero-about h1 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
+        font-size: 1.3rem;
+        margin-bottom: 0rem;
         margin-top: 0rem;
     }
     .hero-about p {
         font-size: 0.9rem;
         margin-top: 0rem;
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
     }
     .catchfrase {
         padding: 1.2rem;
