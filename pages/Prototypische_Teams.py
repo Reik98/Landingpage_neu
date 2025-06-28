@@ -101,7 +101,7 @@ st.markdown("""
         height: auto;
         aspect-ratio: 3 / 2;
         padding: 6rem 1rem 2rem 1rem;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
