@@ -18,9 +18,10 @@ st.markdown("""
     height: 700px; /* Desktop */
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
         url('https://raw.githubusercontent.com/Reik98/Landingpage_neu/main/Über uns.JPG');
-    background-size: contain; /* 👈 Desktop: möglichst ausgefüllt */
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: transparent; /* ✅ hier: transparent */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,17 +43,16 @@ st.markdown("""
 <style>
 /* Mobile Optimierung */
 @media (max-width: 768px) {
-.hero-about {
-    height: auto;
-    aspect-ratio: 3 / 2; /* ✅ Verhältnis erzwingen (z. B. 3:2 oder 4:3) */
-    background-size: cover; /* 👈 wichtig: Bild vollständig zeigen */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;  /* ✅ Kein Fallback-Hintergrund */
-    padding: 6rem 1rem 2rem 1rem;
-    text-shadow: none;
-    margin-top: 5rem; /* ✅ schiebt den ganzen Kasten nach unten */
-}
+    .hero-about {
+        height: auto;
+        aspect-ratio: 3 / 2;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent; /* ✅ auch hier transparent */
+        padding: 6rem 1rem 2rem 1rem;
+        margin-top: 5rem;
+    }
 
     .hero-about h1 {
         font-size: 2rem;
@@ -99,6 +99,7 @@ st.markdown("""
     }
 
     .hero-about {
+        background-color: transparent; /* oder: #000 für tiefschwarz */
         text-shadow: none;
         color: #ffffff;
     }
