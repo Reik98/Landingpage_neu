@@ -81,7 +81,7 @@ st.markdown("""
         color: #ffffff !important;
     }
     .divider::before, .divider::after {
-        content: ''; flex: 1; border-bottom: 2px solid #008B92;
+        content: ''; flex: 1; border-bottom: 2px solid #fddb3a;
     }
     .hero-about {
         text-shadow: none;
