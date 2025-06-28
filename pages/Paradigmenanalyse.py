@@ -43,24 +43,18 @@ st.markdown("""
 
 /* ---------- DIVIDER ---------- */
 .divider {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 2rem 0;
-}
-.divider::before,
-.divider::after {
-    content: '';
-    flex: 1;
-    border-bottom: 2px solid #008B92;
-}
-.divider:not(:empty)::before { margin-right: 0.75em; }
-.divider:not(:empty)::after { margin-left: 0.75em; }
-.divider span {
-    color: #444;
-    font-weight: 600;
-    font-size: 2.0rem;
-}
+            display: flex; align-items: center; text-align: center;
+            margin: 2rem 0;
+        }
+        .divider::before, .divider::after {
+            content: ''; flex: 1; border-bottom: 2px solid #fddb3a;
+        }
+        .divider:not(:empty)::before { margin-right: 0.75em; }
+        .divider:not(:empty)::after { margin-left: 0.75em; }
+        .divider span {
+            color: #444; font-weight: 600; font-size: 2.5rem;
+        }
+
 
 /* ---------- CATCHFRASE ---------- */
 .catchfrase {
@@ -84,7 +78,7 @@ st.markdown("""
         box-shadow: 0 2px 6px rgba(0,0,0,0.4);
     }
     .divider span {
-        color: #ffffff;
+        color: #ffffff !important;
     }
     .hero-about {
         text-shadow: none;
@@ -122,9 +116,29 @@ st.markdown("""
     .catchfrase p {
         font-size: 1rem;
     }
-    .divider span {
-        font-size: 1.5rem;
-    }
+    .divider {
+    flex-direction: row;
+    margin: 1.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+    border-bottom: 1.5px solid #fddb3a;  /* etwas dünner auf Mobil */
+}
+
+.divider:not(:empty)::before {
+    margin-right: 0.5em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 0.5em;
+}
+
+.divider span {
+    font-size: 1.6rem;  /* 👈 kleiner auf Mobil */
+    font-weight: 600;
+}
+
     footer {
         font-size: 0.8rem;
         padding: 1rem;
