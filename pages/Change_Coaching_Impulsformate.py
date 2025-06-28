@@ -108,9 +108,9 @@ st.markdown("""
         margin-top: 0rem;
     }
     .hero-about p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin-top: 0rem;
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
     }
     .catchfrase {
         padding: 1.2rem;
