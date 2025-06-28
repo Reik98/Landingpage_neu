@@ -125,7 +125,7 @@ st.markdown("""
 
 .divider::before,
 .divider::after {
-    border-bottom: 1.5px solid #fddb3a;  /* etwas dünner auf Mobil */
+    border-bottom: 1.5px solid #008B92;  /* etwas dünner auf Mobil */
 }
 
 .divider:not(:empty)::before {
