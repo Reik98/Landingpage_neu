@@ -164,7 +164,6 @@ st.markdown("""
 </style>
 
 <div class="hero-about">
-
     <p>Bewertung klassischer OE-Modelle wie Luhmann, Kotter oder Senge in Bezug auf KI-Fähigkeit.</p>
 </div>
 """, unsafe_allow_html=True)
