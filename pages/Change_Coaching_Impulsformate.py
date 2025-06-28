@@ -103,7 +103,7 @@ st.markdown("""
         background-position: center;
     }
     .hero-about h1 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         margin-bottom: 0rem;
         margin-top: 0rem;
     }
