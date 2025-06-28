@@ -104,6 +104,7 @@ st.markdown("""
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        margin-top: 1rem;
     }
     .hero-about h1 {
         font-size: 1.3rem;
