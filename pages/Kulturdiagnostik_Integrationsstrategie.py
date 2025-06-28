@@ -98,7 +98,7 @@ st.markdown("""
         height: auto;
         aspect-ratio: 3 / 2;
         padding: 6rem 1rem 2rem 1rem;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
     }
