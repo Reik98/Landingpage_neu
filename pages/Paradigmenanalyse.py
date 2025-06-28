@@ -52,7 +52,7 @@ st.markdown("""
         .divider:not(:empty)::before { margin-right: 0.75em; }
         .divider:not(:empty)::after { margin-left: 0.75em; }
         .divider span {
-            color: #444; font-weight: 600; font-size: 2.0rem;
+            color: #444; font-weight: 600; font-size: 2.5rem;
         }
 
 
@@ -135,7 +135,7 @@ st.markdown("""
 }
 
 .divider span {
-    font-size: 1.0rem;  /* 👈 kleiner auf Mobil */
+    font-size: 1.6rem;  /* 👈 kleiner auf Mobil */
     font-weight: 600;
 }
 
