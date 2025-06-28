@@ -129,7 +129,7 @@ st.markdown("""
 }
 
 .divider:not(:empty)::before {
-    margin-right: 0.5em;
+    margin-right: 0.3em;
 }
 
 .divider:not(:empty)::after {
@@ -139,7 +139,7 @@ st.markdown("""
 .divider span {
     font-size: 1.3rem;  /* 👈 kleiner auf Mobil */
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.2;
     display: inline-block;
     max-width: 90%;
 }
