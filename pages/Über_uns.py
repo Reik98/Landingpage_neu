@@ -21,7 +21,7 @@ st.markdown("""
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ffffff; /* statt transparent */
+    background-color: white; /* statt transparent */
     display: flex;
     flex-direction: column;
     justify-content: center;
