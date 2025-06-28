@@ -58,6 +58,7 @@ st.markdown("""
 
 
 
+
 /* ---------- CATCHFRASE ---------- */
 .catchfrase {
     background-color: #ffffff;
@@ -86,6 +87,7 @@ st.markdown("""
     .divider::after {
         border-bottom: 2.5px solid #fddb3a !important;
     }
+
 
     .hero-about {
         text-shadow: none;
@@ -152,7 +154,6 @@ st.markdown("""
     display: inline-block;
     max-width: 90%;
 }
-
     footer {
         font-size: 0.8rem;
         padding: 1rem;
