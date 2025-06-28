@@ -135,7 +135,7 @@ st.markdown("""
 }
 
 .divider span {
-    font-size: 1.6rem;  /* 👈 kleiner auf Mobil */
+    font-size: 1.3rem;  /* 👈 kleiner auf Mobil */
     font-weight: 600;
 }
 
