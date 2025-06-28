@@ -69,10 +69,6 @@ st.markdown("""
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121212;
-        color: #ffffff;
-    }
     .catchfrase {
         background-color: #1f1f1f;
         color: #ffffff;
