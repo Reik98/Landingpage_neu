@@ -129,7 +129,7 @@ st.markdown("""
 }
 
 .divider:not(:empty)::before {
-    margin-right: 0.3em;
+    margin-right: 2.0em;
 }
 
 .divider:not(:empty)::after {
