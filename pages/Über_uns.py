@@ -27,6 +27,7 @@ st.markdown("""
     justify-content: center;
     align-items: center;
     color: white;
+    overflow: hidden;
     text-align: center;
     text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
